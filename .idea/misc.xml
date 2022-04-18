@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/bg_btn.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/bg_btn1.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/bg_finish.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/category.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/false_answer.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_chemistry_svg.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_home_svgrepo_com__1_.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_math_svg.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_outline_info_24.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_outline_settings_24.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_physics.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/ic_quize_svg.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/selectble_item.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/slectble.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/drawable/true_answer.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_home_page.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_main.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_physics.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_questions.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_quiz_levels.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_quize_chemistry.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_quize_interesting.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_quize_math.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/activity_quize_physics.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/finish_dialog.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/finish_dialog2.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/info_dialog.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizeApp/app/src/main/res/layout/results.xml" value="0.21770833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectble_item"
+    tools:context=".Questions">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <ImageView
+                android:background="?selectableItemBackgroundBorderless"
+                android:id="@+id/homeBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:src="@drawable/ic_home_svgrepo_com__1_" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5" />
+
+            <TextView
+                android:id="@+id/level_of"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:fontFamily="casual"
+                android:gravity="center|bottom"
+                android:textColor="#64DD17"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/skip"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:fontFamily="casual"
+                android:gravity="center|bottom"
+                android:text="@string/skip"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/questionPosition"
+                style="@style/style_info_text_questions"
+                android:layout_weight="2"
+                android:gravity="center|top"
+                android:paddingTop="16dp"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                tools:text="1/10\nQuestion" />
+
+            <!--  <TextView
+                android:id="@+id/timer"
+                style="@style/style_info_text_questions"
+                android:layout_weight="4"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textSize="48sp"
+                tools:text="00:00" />-->
+
+            <TextView
+                android:id="@+id/point"
+                style="@style/style_info_text_questions"
+                android:layout_weight="2"
+                android:gravity="center|top"
+                android:paddingTop="16dp"
+                android:textColor="#D50000"
+                android:textSize="24sp"
+                tools:text="0\npoint" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="3"
+            android:elevation="100dp"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Barcha natural sonlar va 0 ... \ndeb nomlanadi" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="50dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/variantA"
+                style="@style/style_text_variants"
+                tools:text="ratsional" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="50dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/variantB"
+                style="@style/style_text_variants"
+                tools:text="butun" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="50dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/variantC"
+                style="@style/style_text_variants"
+                tools:text="kasr" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="50dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/variantD"
+                style="@style/style_text_variants"
+                tools:text="komplex" />
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectble_item"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selectble_item">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/choose_category"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/about_app"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="2dp"
+            android:src="@drawable/ic_outline_info_24" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ImageView
+        android:id="@+id/quize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/quize" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/table1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/table2"
+        android:layout_marginBottom="3dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/category"
+            app:cardCornerRadius="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/math"
+                style="@style/style_main_texts"
+                android:background="@drawable/category"
+                android:drawableTop="@drawable/math2"
+                android:text="@string/quize_math" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/category"
+            app:cardCornerRadius="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/physics"
+                style="@style/style_main_texts"
+                android:background="@drawable/category"
+                android:drawableTop="@drawable/physics"
+                android:text="@string/quize_physics" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/table2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/category"
+            app:cardCornerRadius="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chemistry"
+                style="@style/style_main_texts"
+                android:background="@drawable/category"
+                android:drawableTop="@drawable/chemistry"
+                android:text="@string/chemistry" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/category"
+            app:cardCornerRadius="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/interesting"
+                style="@style/style_main_texts"
+                android:background="@drawable/category"
+                android:drawableTop="@drawable/interesting"
+                android:text="@string/mixed" />
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

@@ -1,0 +1,1853 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="mixed">Quiz\nMixed</string>
+    <string name="chemistry">Quiz\nChemistry</string>
+    <string name="quize_physics">Quiz\nPhysics</string>
+    <string name="quize_math">Quiz\nMath</string>
+    <string name="choose_level">Choose level</string>
+    <string name="quizes">Quizzes</string>
+    <string name="interesting">Interesting</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="skip">Skip</string>
+
+    <!--&lt;!&ndash;&lt;!&ndash;Questions_Math_Easy-->
+    <string-array name="math_easy">
+        <item></item>
+        <item>2 … son hisoblanadi</item>
+        <item>Ikkita eng katta raqamdan tashkiltopgan sonni ko\'rsating</item>
+        <item>90 daqiqa necha  soatga teng</item>
+        <item>Quyidagi sonlarning o\'rta arifmetiginitoping: 25, 20, 23, 22</item>
+        <item>Ikkita burchagi teng bo\'lgan uchburchak nima deyiladi</item>
+        <item>Agar biz biror sonni 0 ga ko\'paytirsaknatija nimaga teng bo\'ladi</item>
+        <item>Agar biz 99 ga 1 ni qo\'shsak necha xonali son hosil bo\'ladi</item>
+        <item>Berilgan ikki nuqtadan nechta to\'g\'richiziq o\'tkazish mumkin</item>
+        <item>Uchta bolaning o\'rtacha yoshi 9 ga teng ularning yoshlari yig\'indisini toping</item>
+        <item>45 kun qancha oyga teng</item>
+        <item>9 ning bo\'luvchilarini ko\'rsating</item>
+        <item>Avtomobilning tezligi 60 km/h u 1.25 soatda … masofani o\'tadi</item>
+        <item>To\'rtburchakning nechta diogonali bor</item>
+        <item> O\'tkir burchak bu … </item>
+        <item>Kvadratning tomoni 35 m ga teng bo\'lsa uning yuzi … ga teng</item>
+        <item>750 g lik sutga qancha suv qo\'shilsa 1 kg lik suyuqlik olish mumkin</item>
+    </string-array>
+    <!--Math_answers-->
+    <string-array name="math_answers">
+        <item>19</item>
+        <item>juft</item>
+        <item>99</item>
+        <item>1.30 hours</item>
+        <item>22.5</item>
+        <item>teng yonli</item>
+        <item>nolga teng bo\'ladi</item>
+        <item>3</item>
+        <item>1 ta</item>
+        <item>27 yosh</item>
+        <item>1.5 oy</item>
+        <item>bularning hech biri</item>
+        <item>75 km</item>
+        <item>2 ta</item>
+        <item>90° dan kichik</item>
+        <item>1225 metr kvadrat</item>
+        <item>0.25 kg</item>
+    </string-array>
+    <!--Math_variantA-->
+    <string-array name="math_variantA">
+        <item>19</item>
+        <item>juft</item>
+        <item>99</item>
+        <item>1.30 hours</item>
+        <item>22.5</item>
+        <item>teng yonli</item>
+        <item>nolga teng bo\'ladi</item>
+        <item>3</item>
+        <item>1 ta</item>
+        <item>27 yosh</item>
+        <item>1.5 oy</item>
+        <item>bularning hech biri</item>
+        <item>75 km</item>
+        <item>2 ta</item>
+        <item>90° dan kichik</item>
+        <item>1225 metr kvadrat</item>
+        <item>0.25 kg</item>
+    </string-array>
+    <!--Math_variantB-->
+    <string-array name="math_variantB">
+        <item>20</item>
+        <item>toq</item>
+        <item>98</item>
+        <item>1.5 hours</item>
+        <item>24</item>
+        <item>teng burchakli</item>
+        <item>sonni o\'ziga teng bo\'ladi</item>
+        <item>100</item>
+        <item>2 ta</item>
+        <item>24 yosh</item>
+        <item>1 oy</item>
+        <item>1, 2, 3</item>
+        <item>65 km</item>
+        <item> 3 ta</item>
+        <item> 90° ga teng</item>
+        <item>1225 metr</item>
+        <item>0.2 kg</item>
+    </string-array>
+    <!--Math_variantC-->
+    <string-array name="math_variantC">
+        <item>19</item>
+        <item>juft va toq</item>
+        <item>90</item>
+        <item>1.8 hours</item>
+        <item>42</item>
+        <item>teng tomonli</item>
+        <item>sonni o\'ziga teng bo\'lmaydi</item>
+        <item>200</item>
+        <item>8 ta</item>
+        <item>65 yosh</item>
+        <item>8 oy</item>
+        <item>1, 2, 3, 0</item>
+        <item>56 km</item>
+        <item>9 ta</item>
+        <item>170° ga teng</item>
+        <item>122 metr</item>
+        <item>0.4 kg</item>
+    </string-array>
+    <!--Math_variantD-->
+    <string-array name="math_variantD">
+        <item>18</item>
+        <item>tub</item>
+        <item>96</item>
+        <item>0.9 hours</item>
+        <item>21.5</item>
+        <item>to\'g\'ri burchakli</item>
+        <item>bularning hech biri</item>
+        <item>1</item>
+        <item>iloji yo\'q</item>
+        <item>36 yosh</item>
+        <item>2.5 oy</item>
+        <item>1, 6, 9</item>
+        <item>60 km</item>
+        <item>diogonali yo\'q</item>
+        <item>180° ga teng</item>
+        <item>1252 mert</item>
+        <item>2.5 kg</item>
+    </string-array>
+
+    <!--   Qustions_Physics_Easy
+       <string-array name="physics_easy">
+           <item>Atmosfrea bosimi qanday asbob o\'chaydi</item>
+           <item>Tovush metriyaning qaysi holatida teztarqaladi</item>
+           <item>Optik tola texnologiyasi asosan qaysi sohada ishlatiladi</item>
+           <item>Xona haroratida suv quyilgan yopiq idish oyga  olib chiqilsa va ochilsa qanday hodisa kuzatiladi</item>
+           <item>Ot kuchi birligini qanday birlik bilan  almashtirish mumkin</item>
+           <item>Bug\'lanish jarayonida nima sodir bo\'ladi</item>
+           <item>Paskal qanday kattalikning birligi</item>
+           <item>Radio to\'lqinlarni birinchi bo\'lib  kim aniqlagan</item>
+           <item>Materiyaning birlik hajmdagi massasiga… deyiladi</item>
+           <item>Yerdagi erkin tushish tezlanishi nimaga teng</item>
+           <item>Generator mexanik energiyani … energiyaga aylantiradi </item>
+           <item>Absolyut 0 harorat qaysi shkalaning mantiqiy  asosi hisoblanadi</item>
+           <item>Tovushning havoda tezligi … ga teng</item>
+           <item>Jism tezligining o\'zgarishiga … deyiladi</item>
+           <item>Dunyo bo\'ylab energiyaning asosiy manbai nima</item>
+           <item>Asosiy elektr tashuvchilar nima</item>
+           <item>Zichlik qanday aniqlanadi</item>
+       </string-array>
+       Physics_answer
+       <string-array name="physics_answer">
+           <item>Barometr</item>
+           <item>Qattiq</item>
+           <item>Aloqa</item>
+           <item>Qaynaydi</item>
+           <item>Watt</item>
+           <item>Molekulalar suyuqlik yuzasidan chiqib ketadi</item>
+           <item>Bosim</item>
+           <item>Genri Gers</item>
+           <item>Zichlik</item>
+           <item> 9.81 m/s^2</item>
+           <item>Elektr</item>
+           <item>Kelvin</item>
+           <item>340 m/s</item>
+           <item>Tezlanish</item>
+           <item>Atom energiyasi</item>
+           <item>Elektronlar</item>
+           <item>Massani hajmga bo\'lib</item>
+
+       </string-array>
+       Physics_variantA
+       <string-array name="physics_variantA">
+           <item>Barometr</item>
+           <item>Qattiq</item>
+           <item>Aloqa</item>
+           <item>Qaynaydi</item>
+           <item>Watt</item>
+           <item>Molekulalar suyuqlik yuzasidan chiqib ketadi</item>
+           <item>Bosim</item>
+           <item>Genri Gers</item>
+           <item>Zichlik</item>
+           <item>9.81 m/s^2</item>
+           <item>Elektr</item>
+           <item>Kelvin</item>
+           <item>340 km/h</item>
+           <item>Tezlanish</item>
+           <item>Atom energiyasi</item>
+           <item>Elektronlar</item>
+           <item>Massani hajmga bo\'lib</item>
+       </string-array>
+       Physics_variantB
+       <string-array name="physics_variantB">
+           <item>Laktometr</item>
+           <item>Suyuq</item>
+           <item>Musiqa</item>
+           <item>Muzlaydi</item>
+           <item>Amper</item>
+           <item>Molekulalar suyuqlik massasidan chiqib ketadi</item>
+           <item>Kuch</item>
+           <item>Nikola Tesla</item>
+           <item>Sig\'im</item>
+           <item>0.98 m/s^2</item>
+           <item>Yorug\'lik</item>
+           <item>Farangeyt</item>
+           <item>3400 m/s</item>
+           <item>Tebranish</item>
+           <item>Quyosh energiyasi</item>
+           <item>Protonlar</item>
+           <item>Massani yuzaga bo\'lib</item>
+
+       </string-array>
+       Physics_variantC
+       <string-array name="physics_variantC">
+           <item>Gidrometr</item>
+           <item>Gaz</item>
+           <item>Oziq ovqat</item>
+           <item>kislorod vodorodga parchalandi</item>
+           <item>Om</item>
+           <item>Bug\' va kislorod suyuqlik massasidan chiqib ketadi</item>
+           <item>Zaryad</item>
+           <item>Jeym Maksvell</item>
+           <item>Massa</item>
+           <item>10 m/s^2</item>
+           <item>Yadro</item>
+           <item>Selsiy</item>
+           <item>34 km/s</item>
+           <item>Siqilish</item>
+           <item>Gidro energiyasi</item>
+           <item>Neytronlar</item>
+           <item>Hajmni massaga bo\'lib</item>
+
+       </string-array>
+       Physics_variantD
+       <string-array name="physics_variantD">
+           <item>Termometr</item>
+           <item>Plazma</item>
+           <item>To\'quv</item>
+           <item>Hech narsa bo\'lmaydi</item>
+           <item>Volt</item>
+           <item>Bularning hech biri</item>
+           <item>Yorug\'lik</item>
+           <item>Genri Ford</item>
+           <item>Yuza</item>
+           <item>27 m/s^2</item>
+           <item>Mexanik</item>
+           <item>Bularning hech biri</item>
+           <item>3400 km/h</item>
+           <item>Nisbiy Tezlik</item>
+           <item>Yoqilg\'i energiyasi</item>
+           <item>Ionlar</item>
+           <item>Massani hajmga ko\'paytirib</item>
+
+       </string-array>
+
+
+       Questions_Chemistry_Easy
+       <string-array name="chemistry_easy">
+           <item>Elektronning energiyasi qachon 0 sifatida qabul qilinadi</item>
+           <item>"Karat" atamasi oltinning tozaligini ifodalash uchun ishlatiladi.Oltinning eng toza shakli…</item>
+           <item>Quyidagi gazlardan qaysi biri o\'t o\'chirgichda qo\'llanadi</item>
+           <item>Elementlarning izotoplari nimasi bilan farq qiladi</item>
+           <item>Glikol aviatsiya benziniga qo\'shiladi chunki u …</item>
+           <item>Agar siz bir stakan suvni kosmosga qo\'ysangiz u …</item>
+           <item>Atomning tartib raqami nimaga bog\'liq(Davriy jadvajda)</item>
+           <item>Quyidagi metallardan qays biri dengiz suvi bilan  korroziyaga uchramagani uchun qayiq yasashda ishlatiladi</item>
+           <item>Shishani 1400°C gacha qizdirish orqali … ishlab chiqariladi</item>
+           <item>Quyidagi qaysi mato neft mahsulotlaridan foydalanib ishlab chiqariladi</item>
+           <item>Atomning kimyoviy harakati … ga bog\'liq</item>
+           <item>Biogazda asosan quyidagi mavjud</item>
+           <item>Denaturatsiyalangan spirt bu etanol bilan aralashtirilgan …</item>
+           <item>Quyidagilardan qaysi biri element hisoblanadi</item>
+           <item>Fofosuratda fotofiksator sifatida ishlatiladigan kimyoviy modda bu …</item>
+           <item>Suniy yomg\'ir uchun ishlatiladigan modda bu …</item>
+           <item>Quayside orasidagi eng elektropozitiv element …</item>
+       </string-array>
+       Math_answers
+       <string-array name="chemistry_answers">
+           <item>Qulagan holatida</item>
+           <item>24 karat</item>
+           <item>Karbonat angidrid</item>
+           <item>Neytron</item>
+           <item>Benzinning muzlashini oldini oladi</item>
+           <item>Qaynaydi</item>
+           <item>Protonlar soni</item>
+           <item>Nikel</item>
+           <item>Ohaktosh,krmniy oksid va sodali suv</item>
+           <item>Nylon</item>
+           <item>Yadro atrofida aylanuvchi elektronlar soniga</item>
+           <item>Metan</item>
+           <item>Pridin</item>
+           <item>Olmos</item>
+           <item>Natriy triosulfat</item>
+           <item>Silveriodiod</item>
+           <item>Seziy</item>
+       </string-array>
+       Math_variantA
+       <string-array name="chemistry_variantA">
+           <item>Qulagan holatida</item>
+           <item>24 karat</item>
+           <item>Karbonat angidrid</item>
+           <item>Neytron</item>
+           <item>Benzinning muzlashini oldini oladi</item>
+           <item>Qaynaydi</item>
+           <item>Protonlar soni</item>
+           <item>Nikel</item>
+           <item>Ohaktosh,krmniy oksid va sodali suv</item>
+           <item>Nylon</item>
+           <item>Yadro atrofida aylanuvchi elektronlar soniga</item>
+           <item>Metan</item>
+           <item>Pridin</item>
+           <item>Olmos</item>
+           <item>Natriy triosulfat</item>
+           <item>Silveriodiod</item>
+           <item>Seziy</item>
+       </string-array>
+       Math_variantB
+       <string-array name="chemistry_variantB">
+           <item>K qobig\'ida</item>
+           <item>22 karat</item>
+           <item>Oltingugurt</item>
+           <item>Proton</item>
+           <item>Benzinning bug\'lanish oldini oladi</item>
+           <item>Bug\'lanadi</item>
+           <item>Netronlar soni</item>
+           <item>Titan</item>
+           <item>Kremniy va ohaktosh</item>
+           <item>Terelyne</item>
+           <item>Yadrodagi nuklonlar soniga</item>
+           <item>Gidrogen</item>
+           <item>suv</item>
+           <item>Ruby</item>
+           <item>Natriy oksalat</item>
+           <item>Ammoniy nitrat</item>
+           <item>Kaliy</item>
+       </string-array>
+       Math_variantC
+       <string-array name="chemistry_vatiantC">
+           <item>N qobig\'ida</item>
+           <item>18 karat</item>
+           <item>Uglerod oksid</item>
+           <item>Nuklon</item>
+           <item>Benzinning samaradorligini oshiradi</item>
+           <item>Bug\'lanmaydi</item>
+           <item>Elektronlar soni</item>
+           <item>Volfram</item>
+           <item>Soda kuli va silikat</item>
+           <item>Ipak</item>
+           <item>Yadrodagi netronlar soniga</item>
+           <item>Etan</item>
+           <item>Benzin</item>
+           <item>Safir</item>
+           <item>Natriy sulfit</item>
+           <item>Kumush bromid</item>
+           <item>Kalsiy</item>
+       </string-array>
+       Math_variantD
+       <string-array name="chemistry_variantD">
+           <item>Yadrodan uzoqda</item>
+           <item>20 karat</item>
+           <item>Azot oksid</item>
+           <item>Elektron</item>
+           <item>Benzin sarfini kamaytiradi</item>
+           <item>Yonadi</item>
+           <item>Nuklonlar soni</item>
+           <item>Surma</item>
+           <item>Ohaktosh va sodali suv</item>
+           <item>Paxta</item>
+           <item>Yadrodagi protonlar soniga</item>
+           <item>Karbon monoksid</item>
+           <item>Kerosin</item>
+           <item>Topaz</item>
+           <item>Natriy sulfat</item>
+           <item>barchasi</item>
+           <item>Natriy</item>
+       </string-array>&ndash;&gt;-->
+
+    <!--    Math questions-->
+    <!--    <string name="questionm_31">x² == 16  x -> ?</string>-->
+    <!--    <string name="variantm_31_a">4</string>-->
+    <!--    <string name="variantm_31_b">-4</string>-->
+    <!--    <string name="variantm_31_c">2</string>-->
+    <!--    <string name="variantm_31_d">4  va -4</string>-->
+    <!--    <string name="answerm31">4  va -4</string>-->
+
+    <string name="questionm_1">x² == 16  x -> ?</string>
+    <string name="variantm_1_a">4</string>
+    <string name="variantm_1_b">-4</string>
+    <string name="variantm_1_c">2</string>
+    <string name="variantm_1_d">4  va -4</string>
+    <string name="answerm1">4  va -4</string>
+
+    <string name="questionm_2"> 8 – 8/4 * 3 == ?</string>
+    <string name="variantm_2_a">2</string>
+    <string name="variantm_2_b">18</string>
+    <string name="variantm_2_c">16</string>
+    <string name="variantm_2_d">4</string>
+    <string name="answerm2">2</string>
+
+    <string name="questionm_3">f(x) = 2*x²+1  f(1) -> ?</string>
+    <string name="variantm_3_a">3</string>
+    <string name="variantm_3_b">5</string>
+    <string name="variantm_3_c">1</string>
+    <string name="variantm_3_d">4</string>
+    <string name="answerm3">3</string>
+
+
+    <string name="questionm_4"> 1/x = 2  bo\'lsa x -> ?</string>
+    <string name="variantm_4_a">4</string>
+    <string name="variantm_4_b">2</string>
+    <string name="variantm_4_c">0.5</string>
+    <string name="variantm_4_d">2.5</string>
+    <string name="answerm4">0.5</string>
+
+
+    <string name="questionm_5"> -3 soni -2 dan qancha kichik ?</string>
+    <string name="variantm_5_a">1.5</string>
+    <string name="variantm_5_b">-1.5</string>
+    <string name="variantm_5_c">2</string>
+    <string name="variantm_5_d">manfiy sonlarda bunday tushuncha yo\'q</string>
+    <string name="answerm5">manfiy sonlarda bunday tushuncha yo\'q</string>
+
+
+    <string name="questionm_6">Qaysi biri katta ?  - 15  yoki - 5</string>
+    <string name="variantm_6_a">-5</string>
+    <string name="variantm_6_b">-15</string>
+    <string name="variantm_6_c">5</string>
+    <string name="variantm_6_d">15</string>
+    <string name="answerm6">-5</string>
+
+
+    <string name="questionm_7"> Qaysi sonni nolga(0) ko\'paytirsa nol boladi ?</string>
+    <string name="variantm_7_a">5</string>
+    <string name="variantm_7_b">8</string>
+    <string name="variantm_7_c">0</string>
+    <string name="variantm_7_d">har qanday sonni</string>
+    <string name="answerm7">har qanday sonni</string>
+
+    <string name="questionm_8">To\'g\'ri burchakli uchburchakning bir burchagi doimo </string>
+    <string name="variantm_8_a">80°</string>
+    <string name="variantm_8_b">20°</string>
+    <string name="variantm_8_c">45°</string>
+    <string name="variantm_8_d">90°</string>
+    <string name="answerm8">90°</string>
+
+    <string name="questionm_9">Uchburchak tomonlariga ko\'ra necha xil bo\'ladi ?</string>
+    <string name="variantm_9_a">3</string>
+    <string name="variantm_9_b">2</string>
+    <string name="variantm_9_c">5</string>
+    <string name="variantm_9_d">4</string>
+    <string name="answerm9">3</string>
+
+    <string name="questionm_10">Uchburchak burchaklariga ko\'ra necha xil bo\'ladi ?</string>
+    <string name="variantm_10_a">5</string>
+    <string name="variantm_10_b">2</string>
+    <string name="variantm_10_c">3</string>
+    <string name="variantm_10_d">4</string>
+    <string name="answerm10">3</string>
+
+
+    <string name="questionm_11">sin30° -> ?</string>
+    <string name="variantm_11_a">1</string>
+    <string name="variantm_11_b">0.2</string>
+    <string name="variantm_11_c">0.5</string>
+    <string name="variantm_11_d">0.6</string>
+    <string name="answerm11">0.5</string>
+
+    <string name="questionm_12">cos60° -> ?</string>
+    <string name="variantm_12_a">0.33</string>
+    <string name="variantm_12_b">0.2</string>
+    <string name="variantm_12_c">0.5</string>
+    <string name="variantm_12_d">0.4</string>
+    <string name="answerm12">0.5</string>
+
+
+    <string name="questionm_13">tg45°  -> </string>
+    <string name="variantm_13_a">1</string>
+    <string name="variantm_13_b">2</string>
+    <string name="variantm_13_c">4</string>
+    <string name="variantm_13_d">3</string>
+    <string name="answerm13">1</string>
+
+    <string name="questionm_14"> -1 soniga qarama-qarshi son nechchiga teng ?</string>
+    <string name="variantm_14_d">1</string>
+    <string name="variantm_14_b">-0.5</string>
+    <string name="variantm_14_c">-0.1</string>
+    <string name="variantm_14_a">-1</string>
+    <string name="answerm14">1</string>
+
+
+    <string name="questionm_15"> -1 soniga teskari son nechchiga teng ?</string>
+    <string name="variantm_15_b">-1</string>
+    <string name="variantm_15_a">-0.5</string>
+    <string name="variantm_15_c">-0.2</string>
+    <string name="variantm_15_d">2</string>
+    <string name="answerm15">-1</string>
+
+    <string name="questionm_16">Pifagor teoremasi qaysi geometrik shakl uchun ?</string>
+    <string name="variantm_16_a">uchburchak</string>
+    <string name="variantm_16_b">to\'rtburchak</string>
+    <string name="variantm_16_c">aylana</string>
+    <string name="variantm_16_d">muntazam oltiburchak</string>
+    <string name="answerm16">uchburchak</string>
+
+    <string name="questionm_17">Uchburchakning tomonlari a = 5, b = 4, c = 3 ga teng bo\'lsa yuzasi nechaga teng ?</string>
+    <string name="variantm_17_d">6</string>
+    <string name="variantm_17_b">4</string>
+    <string name="variantm_17_c">12</string>
+    <string name="variantm_17_a">8</string>
+    <string name="answerm17">6</string>
+
+
+    <string name="questionm_18">To\'g\'ri to\'rtburchakning tomonlari o\'zaro teng va 3 ga teng bo\'lsa, yuzasi nechaga teng ?</string>
+    <string name="variantm_18_a">9</string>
+    <string name="variantm_18_b">6</string>
+    <string name="variantm_18_c">12</string>
+    <string name="variantm_18_d">8</string>
+    <string name="answerm18">9</string>
+
+    <string name="questionm_19">Yoyiq burchak necha gradusga teng ?</string>
+    <string name="variantm_19_c">180°</string>
+    <string name="variantm_19_b">160°</string>
+    <string name="variantm_19_a">90°</string>
+    <string name="variantm_19_d">45°</string>
+    <string name="answerm19">180°</string>
+
+    <string name="questionm_20">Aylanani radiusi 5 ga teng bo\'lsa perimetri nechaga teng ?</string>
+    <string name="variantm_20_a">10π</string>
+    <string name="variantm_20_b">25π</string>
+    <string name="variantm_20_c">12π</string>
+    <string name="variantm_20_d">35π</string>
+    <string name="answerm20">10π</string>
+
+
+    <string name="questionm_21">Diametri 20 ga teng bo\'lgan aylanani radiusi nechaga teng?</string>
+    <string name="variantm_21_d">10</string>
+    <string name="variantm_21_b">16</string>
+    <string name="variantm_21_c">20</string>
+    <string name="variantm_21_a">5</string>
+    <string name="answerm21">10</string>
+
+    <string name="questionm_22">Aylananing radiusi 5 ga teng bo\'lsa, yuzasi nechaga teng ?  </string>
+    <string name="variantm_22_a">25π</string>
+    <string name="variantm_22_b">16π</string>
+    <string name="variantm_22_c">9π</string>
+    <string name="variantm_22_d">mavjud emas</string>
+    <string name="answerm22">mavjud emas</string>
+
+    <string name="questionm_23">-15 + 25 = ?</string>
+    <string name="variantm_23_c">10</string>
+    <string name="variantm_23_b">5</string>
+    <string name="variantm_23_a">qo\'shib bo\'lmaydi</string>
+    <string name="variantm_23_d">25</string>
+    <string name="answerm23">10</string>
+
+    <string name="questionm_24">Uchburchakka har doim aylana chizsa bo\'adimi ?</string>
+    <string name="variantm_24_a">ha</string>
+    <string name="variantm_24_b">yo\'q</string>
+    <string name="variantm_24_c">umuman mumkin emas</string>
+    <string name="variantm_24_d">bilmadim</string>
+    <string name="answerm24">yo\'q</string>
+
+
+    <string name="questionm_25">Parallelopipedning nechta uchi bor ?</string>
+    <string name="variantm_25_a">8</string>
+    <string name="variantm_25_b">6</string>
+    <string name="variantm_25_c">4</string>
+    <string name="variantm_25_d">12</string>
+    <string name="answerm25">8</string>
+
+    <string name="questionm_26">Parallelopipedning nechta qirrasi bor ?</string>
+    <string name="variantm_26_b">12</string>
+    <string name="variantm_26_a">16</string>
+    <string name="variantm_26_c">8</string>
+    <string name="variantm_26_d">6</string>
+    <string name="answerm26">12</string>
+
+    <string name="questionm_27">5 + 2 – 8/2 * 4 = ? </string>
+    <string name="variantm_27_a">-9</string>
+    <string name="variantm_27_b">16</string>
+    <string name="variantm_27_c">9</string>
+    <string name="variantm_27_d">8</string>
+    <string name="answerm27">-9</string>
+
+    <string name="questionm_28">Ekub(8,9) -> ?</string>
+    <string name="variantm_28_d">1</string>
+    <string name="variantm_28_b">8</string>
+    <string name="variantm_28_c">9</string>
+    <string name="variantm_28_a">72</string>
+    <string name="answerm28">1</string>
+
+    <string name="questionm_29">Eng kichik tub son -> ?</string>
+    <string name="variantm_29_a">2</string>
+    <string name="variantm_29_b">1</string>
+    <string name="variantm_29_c">3</string>
+    <string name="variantm_29_d">5</string>
+    <string name="answerm29">2</string>
+
+    <string name="questionm_30">Bo\'luvchilar soni 2 ta bo\'lgan son  …   deyiladi</string>
+    <string name="variantm_30_c">Tub</string>
+    <string name="variantm_30_b">Murakkab</string>
+    <string name="variantm_30_a">Juft</string>
+    <string name="variantm_30_d">Toq</string>
+    <string name="answerm30">Tub</string>
+
+
+    <!--    Physics questions-->
+
+    <string name="questionf_1">Xalqaro Birliklar sistemasi (XBS) qachon qabul qilingan ?</string>
+    <string name="variantf_1_a">1960 - yil</string>
+    <string name="variantf_1_b">1963 - yil</string>
+    <string name="variantf_1_c">1956 - yil</string>
+    <string name="variantf_1_d">1991 - yil</string>
+    <string name="answerf1">1960 - yil</string>
+
+
+    <string name="questionf_2">Eng yengil metal  …</string>
+    <string name="variantf_2_a">Kaliy</string>
+    <string name="variantf_2_b">Litiy</string>
+    <string name="variantf_2_c">Simob</string>
+    <string name="variantf_2_d">Xlor</string>
+    <string name="answerf2">Litiy</string>
+
+
+    <string name="questionf_3">O\'girlik kichi oyda ko\'pmi yoki yerda ?</string>
+    <string name="variantf_3_a">Oyda</string>
+    <string name="variantf_3_b">Yerda</string>
+    <string name="variantf_3_c">Bir xil</string>
+    <string name="variantf_3_d">Taqqosalb bo\'lmaydi</string>
+    <string name="answerf3">Yerda</string>
+
+
+    <string name="questionf_4">Erkin tushish tezlanishi qayerda eng katta ? </string>
+    <string name="variantf_4_a">Ekvatorda</string>
+    <string name="variantf_4_b">45° kenglikda</string>
+    <string name="variantf_4_c">Qutb</string>
+    <string name="variantf_4_d">Hamma joyda bir xil</string>
+    <string name="answerf4">Qutb</string>
+
+
+    <string name="questionf_5">Massa tushunchasini fanga kim kiritgan ?</string>
+    <string name="variantf_5_a">Faradey</string>
+    <string name="variantf_5_b">Nyuton</string>
+    <string name="variantf_5_c">Arximed</string>
+    <string name="variantf_5_d">Beruniy</string>
+    <string name="answerf5">Nyuton</string>
+
+
+    <string name="questionf_6">Atmosfera bosimini kim birinchi bolib aniqlagan ?</string>
+    <string name="variantf_6_a">Faradey</string>
+    <string name="variantf_6_b">Nyuton</string>
+    <string name="variantf_6_c">Torricheli</string>
+    <string name="variantf_6_d">Eyshten</string>
+    <string name="answerf6">Torricheli</string>
+
+
+    <string name="questionf_7">Absolyut nol temperatura qiymati °C ga teng ?</string>
+    <string name="variantf_7_a">0 °C</string>
+    <string name="variantf_7_b"> -273°C</string>
+    <string name="variantf_7_c"> Aslida bunday tempratura mavjud emas</string>
+    <string name="variantf_7_d">-1°C</string>
+    <string name="answerf7">-273°C</string>
+
+
+    <string name="questionf_8">Musbat zaryad bu  …</string>
+    <string name="variantf_8_a">neytron</string>
+    <string name="variantf_8_b">elektron</string>
+    <string name="variantf_8_c">proton</string>
+    <string name="variantf_8_d">antiproton</string>
+    <string name="answerf8">proton</string>
+
+    <string name="questionf_9">XBS da massaning birligi </string>
+    <string name="variantf_9_a">N/m</string>
+    <string name="variantf_9_b">N*s/m</string>
+    <string name="variantf_9_c">kg</string>
+    <string name="variantf_9_d">g</string>
+    <string name="answerf9">kg</string>
+
+
+    <string name="questionf_10">Moddaning nechta agregat holati mavjud ?</string>
+    <string name="variantf_10_a">5</string>
+    <string name="variantf_10_b">2</string>
+    <string name="variantf_10_c">1</string>
+    <string name="variantf_10_d">3</string>
+    <string name="answerf10">3</string>
+
+    <string name="questionf_11">Ayollar sochida oltin ko\'pmi yoki erkaklarda ?</string>
+    <string name="variantf_11_a">erkaklarda</string>
+    <string name="variantf_11_b">ayollarda</string>
+    <string name="variantf_11_c">ikkalasida teng miqdorda</string>
+    <string name="variantf_11_d">sochda oltin nima qilsin</string>
+    <string name="answerf11">ayollarda</string>
+
+
+    <string name="questionf_12">Bolsman doimysini birligi ?</string>
+    <string name="variantf_12_a">N/m</string>
+    <string name="variantf_12_b">N*s</string>
+    <string name="variantf_12_c">J * K</string>
+    <string name="variantf_12_d">K / J</string>
+    <string name="answerf12">J * K</string>
+
+
+    <string name="questionf_13">Elektron va proton qanday tasirlashadi ? </string>
+    <string name="variantf_13_b">Tortishishadi</string>
+    <string name="variantf_13_a">Itarishadi</string>
+    <string name="variantf_13_c">Ta\'sirlashmaydi</string>
+    <string name="variantf_13_d">Tortishishi ham itarishi ham mumkin</string>
+    <string name="answerf13">Tortishishadi</string>
+
+
+    <string name="questionf_14">Zanjirning bir qismida to\'k kuchi 2 marta kamaysa, kuchlanish o\'zgartirilmasa qarshilik qanday o\'zgaradi?</string>
+    <string name="variantf_14_a">4 marta ortadi</string>
+    <string name="variantf_14_b">2 marta kamayadi</string>
+    <string name="variantf_14_c">2 marta ortadi </string>
+    <string name="variantf_14_d">o\'zgarmaydi</string>
+    <string name="answerf14">o\'zgarmaydi</string>
+
+
+    <string name="questionf_15">Yadro atomning qayerida joylashadi ?</string>
+    <string name="variantf_15_a">Sirtida</string>
+    <string name="variantf_15_b">Chetida</string>
+    <string name="variantf_15_c">hohlagan joyida</string>
+    <string name="variantf_15_d">markazida</string>
+    <string name="answerf15">markazida</string>
+
+
+    <string name="questionf_16">Lorens kuchi traektoriyaning qaysi qismida ko\'p ish bajaradi ?</string>
+    <string name="variantf_16_a">Boshlang\'ich nuqtasida</string>
+    <string name="variantf_16_b">Oxirgi nuqtasida</string>
+    <string name="variantf_16_c">ish bajarmaydi</string>
+    <string name="variantf_16_d">barcha nuqtasida bir xil </string>
+    <string name="answerf16">ish bajarmaydi</string>
+
+
+    <string name="questionf_17">To\'k kuchi qanday kattalik ?</string>
+    <string name="variantf_17_a">Skalyar</string>
+    <string name="variantf_17_b">Vektor</string>
+    <string name="variantf_17_c">hosilaviy</string>
+    <string name="variantf_17_d">skalyar yo\'nalishga ega bo\'lgan kattalik</string>
+    <string name="answerf17">skalyar yo\'nalishga ega bo\'lgan kattalik</string>
+
+
+    <string name="questionf_18">Zaryadning salanish qonuni  har qanday sistemada o\'rinlimi ?</string>
+    <string name="variantf_18_a">ha</string>
+    <string name="variantf_18_b">yo\'q</string>
+    <string name="variantf_18_c">zaryad saqlanmaydi</string>
+    <string name="variantf_18_d">bilmadim</string>
+    <string name="answerf18">yo\'q</string>
+
+
+    <string name="questionf_19">Tezlikni o\'lchovchi qurilma  …</string>
+    <string name="variantf_19_a">akselorometr</string>
+    <string name="variantf_19_b">dinanomometr</string>
+    <string name="variantf_19_c">spidometr</string>
+    <string name="variantf_19_d">ampermetr</string>
+    <string name="answerf19">spidometr</string>
+
+
+    <string name="questionf_20">Yer uchun birinchi kosmik tezlik qiymati nechaga teng ? (km/s)</string>
+    <string name="variantf_20_a">11.2</string>
+    <string name="variantf_20_b">16.2</string>
+    <string name="variantf_20_c">9.7</string>
+    <string name="variantf_20_d">7.9</string>
+    <string name="answerf20">7.9</string>
+
+
+    <string name="questionf_21">Qanday ishorali zaryadlarning o\'zaro tasirlashuv  potensial energiyasi musbat ?</string>
+    <string name="variantf_21_a">har doim musbat</string>
+    <string name="variantf_21_b">manfiy</string>
+    <string name="variantf_21_c">musbat</string>
+    <string name="variantf_21_d">bir xil ishorali zaryadlarning</string>
+    <string name="answerf21">bir xil ishorali zaryadlarning</string>
+
+
+    <string name="questionf_22">Kuch birligini ko\'rsating</string>
+    <string name="variantf_22_a">m</string>
+    <string name="variantf_22_b">m * s</string>
+    <string name="variantf_22_c">N</string>
+    <string name="variantf_22_d">N * m</string>
+    <string name="answerf22">N</string>
+
+
+    <string name="questionf_23">Kuch qanday kattalik ?</string>
+    <string name="variantf_23_a">vektor</string>
+    <string name="variantf_23_b">skalyar</string>
+    <string name="variantf_23_c">o\'lchamsiz</string>
+    <string name="variantf_23_d">ham skalyar ham vektor</string>
+    <string name="answerf23">vektor</string>
+
+
+    <string name="questionf_24">XBS da nechta asosiy birlik bor ?</string>
+    <string name="variantf_24_a">3</string>
+    <string name="variantf_24_b">5</string>
+    <string name="variantf_24_c">7</string>
+    <string name="variantf_24_d">9</string>
+    <string name="answerf24">7</string>
+
+
+    <string name="questionf_25">Eng yaxshi ko\'rish masofasi ?</string>
+    <string name="variantf_25_a">23 sm</string>
+    <string name="variantf_25_b">25 sm</string>
+    <string name="variantf_25_c">27 sm</string>
+    <string name="variantf_25_d">32 sm</string>
+    <string name="answerf25">25 sm</string>
+
+
+    <string name="questionf_26">Linzalar necha xil bo\'ladi ?</string>
+    <string name="variantf_26_a">2</string>
+    <string name="variantf_26_b">3</string>
+    <string name="variantf_26_c">4</string>
+    <string name="variantf_26_d">6</string>
+    <string name="answerf26">2</string>
+
+    <string name="questionf_27">Avagadro sonini birligi ?</string>
+    <string name="variantf_27_a">mol</string>
+    <string name="variantf_27_b">1/mol</string>
+    <string name="variantf_27_c">g/mol</string>
+    <string name="variantf_27_d">kg/mol</string>
+    <string name="answerf27">1/mol</string>
+
+
+    <string name="questionf_28">Yorug\'likning vakuumdagi tezligi … m/s  ga teng </string>
+    <string name="variantf_28_a">3 * 10^8</string>
+    <string name="variantf_28_b">3 * 10^9</string>
+    <string name="variantf_28_c">3 * 10^16</string>
+    <string name="variantf_28_d">3 * 10^6</string>
+    <string name="answerf28">3 * 10^8</string>
+
+
+    <string name="questionf_29">Izobarik jarayonda … o\'zgarmaydi</string>
+    <string name="variantf_29_a">Hajm</string>
+    <string name="variantf_29_b">vaqt</string>
+    <string name="variantf_29_c">Bosim</string>
+    <string name="variantf_29_d">Temperatura</string>
+    <string name="answerf29">Bosim</string>
+
+
+    <string name="questionf_30">Yorug\'lik to\'lqinlarining to\'siqlarni aylanib o\'tishi va geometrik soya sohasiga og\'ishi … deyiladi</string>
+    <string name="variantf_30_a">dispersiya</string>
+    <string name="variantf_30_b">interferensiya</string>
+    <string name="variantf_30_c">fotometriya</string>
+    <string name="variantf_30_d">difraksiya</string>
+    <string name="answerf30">difraksiya</string>
+
+    <!--    Chemistry questions-->
+
+    <string name="questionch_1"> Selsiy shkalasi bo\'yicha qanday daraja temir gaz holatga o\'tadi ?</string>
+    <string name="variantch_1_a">5000</string>
+    <string name="variantch_1_b">6000</string>
+    <string name="variantch_1_c">7000</string>
+    <string name="variantch_1_d">8000</string>
+    <string name="answerch1">5000</string>
+
+    <string name="questionch_2"> Jozef Blek nechanchi yilda karbonat angidrid gazini kashf etdi ?</string>
+    <string name="variantch_2_a">1860 - yilda</string>
+    <string name="variantch_2_b">1869 - yilda</string>
+    <string name="variantch_2_c">1754 - yilda</string>
+    <string name="variantch_2_d">1745 - yilda</string>
+    <string name="answerch2">1754 yilda</string>
+
+
+    <string name="questionch_3"> Eng yengil gaz …</string>
+    <string name="variantch_3_a">Geliy</string>
+    <string name="variantch_3_b">Neon</string>
+    <string name="variantch_3_c">Karbonat Angidirid</string>
+    <string name="variantch_3_d">Vodorod</string>
+    <string name="answerch3">Vodorod</string>
+
+    <string name="questionch_4"> Kim birinchi bo\'lib kimyo bo\'yicha Nobel mukofotiga sazovor bo\'lgan ?</string>
+    <string name="variantch_4_a">Kyuri</string>
+    <string name="variantch_4_b">Faradey</string>
+    <string name="variantch_4_c">Alexsandr Fleming</string>
+    <string name="variantch_4_d">Ernest Rezerford </string>
+    <string name="answerch4">Ernest Rezerford </string>
+
+    <string name="questionch_5"> Qaysi kimyoviy element gugurt ishlab chiqarish uchun ishlatilinadi ?</string>
+    <string name="variantch_5_a">Geliy</string>
+    <string name="variantch_5_b">Neon</string>
+    <string name="variantch_5_c">Fosfor</string>
+    <string name="variantch_5_d">Vodorod</string>
+    <string name="answerch5">Fosfor</string>
+
+    <string name="questionch_6">Alyuminiy qanday belgilanadi ?</string>
+    <string name="variantch_6_a">Al</string>
+    <string name="variantch_6_b">Ar</string>
+    <string name="variantch_6_c">Cl</string>
+    <string name="variantch_6_d">B</string>
+    <string name="answerch6">Al</string>
+
+    <string name="questionch_7">Kislorod </string>
+    <string name="variantch_7_a">Os</string>
+    <string name="variantch_7_b">O</string>
+    <string name="variantch_7_c">Xe</string>
+    <string name="variantch_7_d">Mn</string>
+    <string name="answerch7">O</string>
+
+
+    <string name="questionch_8">H -> </string>
+    <string name="variantch_8_a">Geliy</string>
+    <string name="variantch_8_b">Neon</string>
+    <string name="variantch_8_c">Fosfor</string>
+    <string name="variantch_8_d">Vodorod</string>
+    <string name="answerch8">Vodorod</string>
+
+    <string name="questionch_9"> Atom qanday zarralardan tashkil topgan ?</string>
+    <string name="variantch_9_a">proton</string>
+    <string name="variantch_9_b">elektron</string>
+    <string name="variantch_9_c">neytron va proton</string>
+    <string name="variantch_9_d">proton, elektron va neytron</string>
+    <string name="answerch9">proton, elektron va neytron</string>
+
+    <string name="questionch_10">Yadro qanday zarralardan tashkil topgan ?</string>
+    <string name="variantch_10_a">proton</string>
+    <string name="variantch_10_b">neytron</string>
+    <string name="variantch_10_c">elektron va proton</string>
+    <string name="variantch_10_d">proton va neytron</string>
+    <string name="answerch10">proton va neytron</string>
+
+
+    <string name="questionch_11">Yadro qanday zaryad ega ?</string>
+    <string name="variantch_11_a">manfiy</string>
+    <string name="variantch_11_b">neytral</string>
+    <string name="variantch_11_c">musbat</string>
+    <string name="variantch_11_d">zaryadsiz</string>
+    <string name="answerch11">musbat</string>
+
+    <string name="questionch_12">Moddaning agregat holati necha xil ?</string>
+    <string name="variantch_12_a">4</string>
+    <string name="variantch_12_b">3</string>
+    <string name="variantch_12_c">5</string>
+    <string name="variantch_12_d">2</string>
+    <string name="answerch12">3</string>
+
+
+    <string name="questionch_13">Modda miqdorini birligi ?</string>
+    <string name="variantch_13_a">1/mol</string>
+    <string name="variantch_13_b">g/mol</string>
+    <string name="variantch_13_c">mol</string>
+    <string name="variantch_13_d">kg/mol</string>
+    <string name="answerch13">mol</string>
+
+
+    <string name="questionch_14">1 ta suv molekulasida nechta elektron bor ?</string>
+    <string name="variantch_14_a">8 ta</string>
+    <string name="variantch_14_b">2 ta</string>
+    <string name="variantch_14_c">yoq</string>
+    <string name="variantch_14_d">10 ta</string>
+    <string name="answerch14">10 ta</string>
+
+
+    <string name="questionch_15">Bir atomli gaz uchun erkinlik darajasi nechaga teng ?</string>
+    <string name="variantch_15_a">3</string>
+    <string name="variantch_15_b">5</string>
+    <string name="variantch_15_c">6</string>
+    <string name="variantch_15_d">8</string>
+    <string name="answerch15">3</string>
+
+
+    <string name="questionch_16">Havo uchun erkinlik darajasi nechaga teng ?</string>
+    <string name="variantch_16_a">8</string>
+    <string name="variantch_16_b">7</string>
+    <string name="variantch_16_c">5</string>
+    <string name="variantch_16_d">3</string>
+    <string name="answerch16">2</string>
+
+
+    <string name="questionch_17">Atomning kimyoviy harakati nimaga bog\'liq ? </string>
+    <string name="variantch_17_a">Yadrodagi neytronlar soniga</string>
+    <string name="variantch_17_b">Yadrodagi protonlar soniga</string>
+    <string name="variantch_17_c">Yadrodagi nuklonlar soniga</string>
+    <string name="variantch_17_d">atrofida aylanib yuruvchi elektronlar soniga</string>
+    <string name="answerch17">atrofida aylanib yuruvchi elektronlar soniga</string>
+
+
+    <string name="questionch_18">Quyidagilardan qaysi biri neft mahsulotlaridan foydalangan holda tayyorlanadi ?</string>
+    <string name="variantch_18_a">Sintetika</string>
+    <string name="variantch_18_b">Nylon</string>
+    <string name="variantch_18_c">Paxta</string>
+    <string name="variantch_18_d">Shisha</string>
+    <string name="answerch18">Nylon</string>
+
+
+    <string name="questionch_19">Qaysi metalladan kema yasashda foydalaniladi ?</string>
+    <string name="variantch_19_a">Geliy</string>
+    <string name="variantch_19_b">Titan</string>
+    <string name="variantch_19_c">Surma</string>
+    <string name="variantch_19_d">Nikel</string>
+    <string name="answerch19">Nikel</string>
+
+
+    <string name="questionch_20">Sof oltin necha karat ?</string>
+    <string name="variantch_20_a">22</string>
+    <string name="variantch_20_b">23</string>
+    <string name="variantch_20_c">18</string>
+    <string name="variantch_20_d">24</string>
+    <string name="answerch20">24</string>
+
+
+    <string name="questionch_21">Havoning namlik tushunchasi necha xil bo\'ladi ?</string>
+    <string name="variantch_21_a">2</string>
+    <string name="variantch_21_b">3</string>
+    <string name="variantch_21_c">4</string>
+    <string name="variantch_21_d">1</string>
+    <string name="answerch21">2</string>
+
+
+    <string name="questionch_22">Bir stakan suv kosmosga qo\'yilsa … bo\'ladi ?</string>
+    <string name="variantch_22_a">muzlaydi</string>
+    <string name="variantch_22_b">qaynaydi</string>
+    <string name="variantch_22_c">o\'zgarish bo\'lmaydi</string>
+    <string name="variantch_22_d">yo\'q bo\'lib ketadi</string>
+    <string name="answerch22">qaynaydi</string>
+
+    <string name="questionch_23"> … soni teng bo\'lsa izotop hisoblanadi. </string>
+    <string name="variantch_23_a">protonlar</string>
+    <string name="variantch_23_b">elektronlar</string>
+    <string name="variantch_23_c">nuklonlar</string>
+    <string name="variantch_23_d">neytronlar</string>
+    <string name="answerch23">protonlar</string>
+
+
+    <string name="questionch_24">Havo  78 % ni … tashkil qiladi </string>
+    <string name="variantch_24_a">Azot</string>
+    <string name="variantch_24_b">Vodorod </string>
+    <string name="variantch_24_c">Kislorod</string>
+    <string name="variantch_24_d">Geliy</string>
+    <string name="answerch24">Azot</string>
+
+
+    <string name="questionch_25">Bromine  ->  </string>
+    <string name="variantch_25_a">Br</string>
+    <string name="variantch_25_b">B</string>
+    <string name="variantch_25_c">O</string>
+    <string name="variantch_25_d">Na</string>
+    <string name="answerch25">Br</string>
+
+    <string name="questionch_26">Fotosuratlarda ishlatiladigan yorug\'likka sezgir birikma </string>
+    <string name="variantch_26_a">Kumush oksidi</string>
+    <string name="variantch_26_b">Kumush xlorid</string>
+    <string name="variantch_26_c">Kumush bromid</string>
+    <string name="variantch_26_d">Kumush sulfid</string>
+    <string name="answerch26">Kumush bromid</string>
+
+
+    <string name="questionch_27">Quyidagilarning qaysi birining tartib raqami va atom massalarining qiymatlari bir xil bo\'ladi ?</string>
+    <string name="variantch_27_a">Kislorod</string>
+    <string name="variantch_27_b">Geliy</string>
+    <string name="variantch_27_c">Vodorod</string>
+    <string name="variantch_27_d">Azot</string>
+    <string name="answerch27">Vodorod</string>
+
+
+    <string name="questionch_28">Sut tarkibida qanday shakar mavjud ? </string>
+    <string name="variantch_28_a">saxaroza</string>
+    <string name="variantch_28_b">maltoza</string>
+    <string name="variantch_28_c">Laktoza</string>
+    <string name="variantch_28_d">Arabinoza</string>
+    <string name="answerch28">Laktoza</string>
+
+    <string name="questionch_29">Jismni gaz holatidan suyuq holatga o\'tishi </string>
+    <string name="variantch_29_a">bug\'lanish</string>
+    <string name="variantch_29_b">Kondensatsiya</string>
+    <string name="variantch_29_c">Sublimatsiya</string>
+    <string name="variantch_29_d">Difraksiya</string>
+    <string name="answerch29">Kondensatsiya</string>
+
+    <string name="questionch_30">Quyidagilarning qaysi biri noto\'gr\'ri ?</string>
+    <string name="variantch_30_a">Kumush  -> Ag</string>
+    <string name="variantch_30_b">Simob   -> Hg</string>
+    <string name="variantch_30_c">Natriy  -> Na</string>
+    <string name="variantch_30_d">Kaliy   -> Ca</string>
+    <string name="answerch30">Kaliy   -> Ca</string>
+
+
+    <!--    Geography questions-->
+
+    <string name="questiong_1">Bir vaqtning o\'zida ham Osiyo ham Yevropada joylashgan yagona shahar qaysi ? </string>
+    <string name="variantg_1_a">Istanbul</string>
+    <string name="variantg_1_b">Parij</string>
+    <string name="variantg_1_c">Madrid</string>
+    <string name="variantg_1_d">Koreya</string>
+    <string name="answerg1">Istanbul</string>
+
+
+    <string name="questiong_2">Dunydagi mitti davlat ?</string>
+    <string name="variantg_2_a">Istanbul</string>
+    <string name="variantg_2_b">Vatikan</string>
+    <string name="variantg_2_c">Madrid</string>
+    <string name="variantg_2_d">Monaco</string>
+    <string name="answerg2">Vatikan</string>
+
+
+    <string name="questiong_3">Dunyodagi eng katta davlat qaysi ?</string>
+    <string name="variantg_3_a">Xitoy</string>
+    <string name="variantg_3_b">Rossiya</string>
+    <string name="variantg_3_c">Kanada</string>
+    <string name="variantg_3_d">Istanbul</string>
+    <string name="answerg3">Rossiya</string>
+
+    <string name="questiong_4">Eng ko\'p qo\'y boqiladigan davlat ?</string>
+    <string name="variantg_4_a">Suriya</string>
+    <string name="variantg_4_b">Afg\'oniston</string>
+    <string name="variantg_4_c">Angilya</string>
+    <string name="variantg_4_d">Avstraliya</string>
+    <string name="answerg4">Avstraliya</string>
+
+    <string name="questiong_5">Eng katta timsoh ?</string>
+    <string name="variantg_5_a">Alligator</string>
+    <string name="variantg_5_b">Nil timsohi</string>
+    <string name="variantg_5_c">Amerika timsohlari</string>
+    <string name="variantg_5_d">Avstraliya timsohi</string>
+    <string name="answerg5">Nil timsohi</string>
+
+    <string name="questiong_6">Afg\'niston poytaxti </string>
+    <string name="variantg_6_a">Qobul</string>
+    <string name="variantg_6_b">Damashq</string>
+    <string name="variantg_6_c">Bag\'dod</string>
+    <string name="variantg_6_d">Baku</string>
+    <string name="answerg6">Qobul</string>
+
+    <string name="questiong_7">Suriyani poytaxti </string>
+    <string name="variantg_7_a">Damashq</string>
+    <string name="variantg_7_b">Boku</string>
+    <string name="variantg_7_c">Qohira</string>
+    <string name="variantg_7_d">Qobul</string>
+    <string name="answerg7">Damashq</string>
+
+    <string name="questiong_8">Yunoniston poyataxti </string>
+    <string name="variantg_8_a">Berlin</string>
+    <string name="variantg_8_b">Afina</string>
+    <string name="variantg_8_c">Madrid</string>
+    <string name="variantg_8_d">Kiyev</string>
+    <string name="answerg8">Afina</string>
+
+    <string name="questiong_9">Ozarbayjon poytaxti </string>
+    <string name="variantg_9_a">Damashq</string>
+    <string name="variantg_9_b">Boku</string>
+    <string name="variantg_9_c">Qobul</string>
+    <string name="variantg_9_d">Bishkek</string>
+    <string name="answerg9">Boku</string>
+
+    <string name="questiong_10">O\'zbekiston poytaxti </string>
+    <string name="variantg_10_a">Toshkent</string>
+    <string name="variantg_10_b">Farg\'ona</string>
+    <string name="variantg_10_c">Bishkek</string>
+    <string name="variantg_10_d">Panama</string>
+    <string name="answerg10">Toshkent</string>
+
+    <string name="questiong_11">Dunyodagi eng katta sharshara </string>
+    <string name="variantg_11_a">Anxel</string>
+    <string name="variantg_11_b">Umbilla</string>
+    <string name="variantg_11_c">Niagara</string>
+    <string name="variantg_11_d">Tugela</string>
+    <string name="answerg11">Anxel</string>
+
+
+    <string name="questiong_12"> Dunyo okeanining qaysi qismida eng ko‘p neft va gaz qazib olinadi ?</string>
+    <string name="variantg_12_a">Kaspiy dengizidan</string>
+    <string name="variantg_12_b">O\'rta dengizdan</string>
+    <string name="variantg_12_c">Fors ko\'rfazidan</string>
+    <string name="variantg_12_d">Avstraliya qirg\'oqlaridan </string>
+    <string name="answerg12">Fors ko\'rfazidan</string>
+
+
+    <string name="questiong_13"> Qaysi era 67 mln yil davom etgan ?</string>
+    <string name="variantg_13_a">Proterazoy</string>
+    <string name="variantg_13_b">Paleazoy</string>
+    <string name="variantg_13_c">Mezazoy</string>
+    <string name="variantg_13_d">Kaynazoy</string>
+    <string name="answerg13">Kaynazoy</string>
+
+
+    <string name="questiong_14">Birinchi globus qaysi olim tarafidan yasalgan ?</string>
+    <string name="variantg_14_a">Xorazmiy</string>
+    <string name="variantg_14_b">Beruniy</string>
+    <string name="variantg_14_c">Erotosfen</string>
+    <string name="variantg_14_d">Magellan</string>
+    <string name="answerg14">Beruniy</string>
+
+
+    <string name="questiong_15">Birinchi xarita ilk marotaba kim tomonidan chizilgan ?</string>
+    <string name="variantg_15_a">Eratosfen</string>
+    <string name="variantg_15_b">Beruniy</string>
+    <string name="variantg_15_c">Magellan</string>
+    <string name="variantg_15_d">Ptolomey</string>
+    <string name="answerg15">Eratosfen</string>
+
+
+    <string name="questiong_16">Dunyoda aholisi eng ko\'p bo\'lgan davlat ?</string>
+    <string name="variantg_16_a">Yaponiya</string>
+    <string name="variantg_16_b">Hindiston</string>
+    <string name="variantg_16_c">Amerika</string>
+    <string name="variantg_16_d">Korea</string>
+    <string name="answerg16">Xitoy</string>
+
+
+    <string name="questiong_17">Qirg\‘iziston  sharqda qaysi davlat bilan chegardosh?</string>
+    <string name="variantg_17_a">O\'zbekiston</string>
+    <string name="variantg_17_b">Xitoy</string>
+    <string name="variantg_17_c">Qozog\'izton</string>
+    <string name="variantg_17_d">Tojikiston</string>
+    <string name="answerg17">Xitoy</string>
+
+
+    <string name="questiong_18">Tojikiston poytaxti </string>
+    <string name="variantg_18_a">Kabul</string>
+    <string name="variantg_18_b">Bishkek</string>
+    <string name="variantg_18_c">Dushanbe</string>
+    <string name="variantg_18_d">Seshanba</string>
+    <string name="answerg18">Dushanbe</string>
+
+
+    <string name="questiong_19">Meksika shimolda qaysi davlat bilan chegaradosh ?</string>
+    <string name="variantg_19_a">AQSH</string>
+    <string name="variantg_19_b">Kanada</string>
+    <string name="variantg_19_c">Chili</string>
+    <string name="variantg_19_d">Braziliya</string>
+    <string name="answerg19">AQSH</string>
+
+
+    <string name="questiong_20">Yaponya quruqlikda qaysi davlat bilan chegaradosh ?</string>
+    <string name="variantg_20_a">Janubiy Korea</string>
+    <string name="variantg_20_b">Xitoy</string>
+    <string name="variantg_20_c">Shimoliy Korea</string>
+    <string name="variantg_20_d">Quruqlikda chegarasi yoq</string>
+    <string name="answerg20">Quruqlikda chegarasi yoq</string>
+
+
+    <string name="questiong_21">O\'zbekiston nechta davlat bilan chegaradosh ?</string>
+    <string name="variantg_21_a">4</string>
+    <string name="variantg_21_b">5</string>
+    <string name="variantg_21_c">6</string>
+    <string name="variantg_21_d">3</string>
+    <string name="answerg21">5</string>
+
+
+    <string name="questiong_22">Sobiq Ittifoqning parchalanishi natijasida nechta yangi mustaqil davlat vujudga keldi?</string>
+    <string name="variantg_22_a">17</string>
+    <string name="variantg_22_b">15</string>
+    <string name="variantg_22_c">10</string>
+    <string name="variantg_22_d">16</string>
+    <string name="answerg22">15</string>
+
+
+    <string name="questiong_23"> Mustaqil davlatlar soni qaysi qit\’ada eng ko\'p?</string>
+    <string name="variantg_23_a">Amerika</string>
+    <string name="variantg_23_b">Osiyo</string>
+    <string name="variantg_23_c">Afrika</string>
+    <string name="variantg_23_d">Yevropa</string>
+    <string name="answerg23">Afrika</string>
+
+
+    <string name="questiong_24">Xaritada "Etik" shaklini aks ettirgan davlat  </string>
+    <string name="variantg_24_a">Rossiya</string>
+    <string name="variantg_24_b">Xitoy</string>
+    <string name="variantg_24_c">Kanada</string>
+    <string name="variantg_24_d">Italiya</string>
+    <string name="answerg24">Italiya</string>
+
+
+    <string name="questiong_25">Qatar poytaxti</string>
+    <string name="variantg_25_a">Doha</string>
+    <string name="variantg_25_b">Dushanbe</string>
+    <string name="variantg_25_c">Islomobod</string>
+    <string name="variantg_25_d">Pekin</string>
+    <string name="answerg25">Doha</string>
+
+
+    <string name="questiong_26">Saudiya Arabistoni poytaxti</string>
+    <string name="variantg_26_a">Tehron</string>
+    <string name="variantg_26_b">Ar-Riyod</string>
+    <string name="variantg_26_c">Seul</string>
+    <string name="variantg_26_d">Al-Quvayt</string>
+    <string name="answerg26">Ar-Riyod</string>
+
+
+    <string name="questiong_27">Eron poytaxti</string>
+    <string name="variantg_27_a">Tehron</string>
+    <string name="variantg_27_b">Singapur</string>
+    <string name="variantg_27_c">Tbilisi</string>
+    <string name="variantg_27_d">Islomobod</string>
+    <string name="answerg27">Tehron</string>
+
+
+    <string name="questiong_28">Hindular tilida "Juda ko\'p baliq" degan ma\'noni anglatuvchi shahar</string>
+    <string name="variantg_28_a">Kosta-Rika</string>
+    <string name="variantg_28_b">San-Salvador</string>
+    <string name="variantg_28_c">Panama</string>
+    <string name="variantg_28_d">Islandiya</string>
+    <string name="answerg28">Panama</string>
+
+
+    <string name="questiong_29">Eng kichik sayyora </string>
+    <string name="variantg_29_a">Merkuriy</string>
+    <string name="variantg_29_b">Pluton</string>
+    <string name="variantg_29_c">Yer</string>
+    <string name="variantg_29_d">Mars</string>
+    <string name="answerg29">Pluton</string>
+
+
+    <string name="questiong_30">Gaz qazib olish bo\'yicha yetakchi davlat </string>
+    <string name="variantg_30_a">Kanada</string>
+    <string name="variantg_30_b">Arabiston</string>
+    <string name="variantg_30_c">Eron</string>
+    <string name="variantg_30_d">Xitoy</string>
+    <string name="answerg30">Arabiston</string>
+
+    <string name="questions_10">
+        E\'tibor bering: 21, 9, 21, 11, 21, 13, 21, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_10_a">14</string>
+    <string name="variant_10_b">15</string>
+    <string name="variant_10_c">21</string>
+    <string name="variant_10_d">23</string>
+    <string name="answer_10">15</string>
+
+    <string name="questions_11">
+        E\'tibor bering: 8, 22, 8, 28, 8, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_11_a">9</string>
+    <string name="variant_11_b">29</string>
+    <string name="variant_11_c">32</string>
+    <string name="variant_11_d">34</string>
+    <string name="answer_11">34</string>
+
+    <string name="questions_12">
+        E\'tibor bering: 31, 29, 24, 22, 17 … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_12_a">15</string>
+    <string name="variant_12_b">14</string>
+    <string name="variant_12_c">13</string>
+    <string name="variant_12_d">12</string>
+    <string name="answer_12">15</string>
+
+    <string name="questions_13">
+        E\'tibor bering: 80, 10, 70, 15, 60, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_13_a">20</string>
+    <string name="variant_13_b">25</string>
+    <string name="variant_13_c">30</string>
+    <string name="variant_13_d">50</string>
+    <string name="answer_13">20</string>
+
+    <string name="questions_14">
+        E\'tibor bering: 2, 6, 18, 54, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_14_a">108</string>
+    <string name="variant_14_b">148</string>
+    <string name="variant_14_c">162</string>
+    <string name="variant_14_d">216</string>
+    <string name="answer_14">162</string>
+
+    <string name="questions_15">
+        E\'tibor bering: 5.2, 4.8, 4.4, 4, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_15_a">3</string>
+    <string name="variant_15_b">3.3</string>
+    <string name="variant_15_c">3.5</string>
+    <string name="variant_15_d">3.6</string>
+    <string name="answer_15">3.6</string>
+
+    <string name="questions_16">
+        E\'tibor bering: 8, 6, 9, 23, 87, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_16_a">128</string>
+    <string name="variant_16_b">226</string>
+    <string name="variant_16_c">324</string>
+    <string name="variant_16_d">429</string>
+    <string name="answer_16">429</string>
+
+    <string name="questions_17">
+        E\'tibor bering: 1.5, 2.3, 3.1, 3.9, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_17_a">4.2</string>
+    <string name="variant_17_b">4.4</string>
+    <string name="variant_17_c">4.7</string>
+    <string name="variant_17_d">5.1</string>
+    <string name="answer_17">4.7</string>
+
+    <string name="questions_18">
+        E\'tibor bering: 14, 28, 20, 40, 32, 64, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_18_a">52</string>
+    <string name="variant_18_b">56</string>
+    <string name="variant_18_c">96</string>
+    <string name="variant_18_d">128</string>
+    <string name="answer_18">56</string>
+
+    <string name="questions_19">
+        E\'tibor bering: 544, 509, 474, 439, … Qaysi raqam kelishi kerak?
+    </string>
+    <string name="variant_19_a">404</string>
+    <string name="variant_19_b">414</string>
+    <string name="variant_19_c">420</string>
+    <string name="variant_19_d">445</string>
+    <string name="answer_19">404</string>
+
+    <string name="questions_20">A 15 kunda, B esa 20 kunda ishni yakunlay oladi.
+        Agar ular birgalikda 4 kun ishlashsa, ishning necha qismi qoladi:</string>
+    <string name="variant_20_a">1//4</string>
+    <string name="variant_20_b">1//10</string>
+    <string name="variant_20_c">7//15</string>
+    <string name="variant_20_d">8//15</string>
+    <string name="answer_20">8//15</string>
+
+    <string name="questions_21">Anavi futbol o\'ynayotgan bola mening otamning xotinining qizining ikki aka-ukasidan kichigi. U menga kim?</string>
+    <string name="variant_21_a">o\'g\'il</string>
+    <string name="variant_21_b">aka(uka)</string>
+    <string name="variant_21_c">amakivachcha</string>
+    <string name="variant_21_d">qaynog\'a</string>
+    <string name="answer_21">aka(uka)</string>
+
+    <string name="questions_22">Manbu suratga qara: U onamning otasining yagona qizi. Men unga kimman?</string>
+    <string name="variant_22_a">o\'g\'il</string>
+    <string name="variant_22_b">jiyan</string>
+    <string name="variant_22_c">amakivachcha</string>
+    <string name="variant_22_d">hech kim</string>
+    <string name="answer_22">o\'g\'il</string>
+
+    <string name="questions_23">Anavi ayolga qara: Uning nabirasi mening akamning yolg\'iz qizi. U ayol menga kim?</string>
+    <string name="variant_23_a">opa</string>
+    <string name="variant_23_b">buvi</string>
+    <string name="variant_23_c">qaynona</string>
+    <string name="variant_23_d">ona</string>
+    <string name="answer_23">ona</string>
+
+    <string name="questions_24">
+        A$B degani A B ning otasi; A#B degani A B ning singlisi; A*B - A B ning qizi
+        va A@B - A B ning ukasi degan ma\'noni anglatadi. \nQuyidagilardan qaysi biri M Q ning xotini ekanligini anglatadi?</string>
+    <string name="variant_24_a">Q $ R # T @ M</string>
+    <string name="variant_24_b">Q $ R @ T # M</string>
+    <string name="variant_24_c">Q $ R * T # M</string>
+    <string name="variant_24_d">Q $ R @ T * M</string>
+    <string name="answer_24">Q $ R @ T * M</string>
+
+    <string name="questions_25">Anavi qizga qara: U mening otamning yagona singlisining qizi. U qiz menga kim?</string>
+    <string name="variant_25_a">amma</string>
+    <string name="variant_25_b">amakivachcha</string>
+    <string name="variant_25_c">ota</string>
+    <string name="variant_25_d">Bobo</string>
+    <string name="answer_25">amakivachcha</string>
+
+    <string name="questions_26">Suratdagi bolaga qara: U mening bobomning yolg\'iz farzandining yagona o\'g\'li. U bola menga kim?</string>
+    <string name="variant_26_a">ota</string>
+    <string name="variant_26_b">aka</string>
+    <string name="variant_26_c">amakivachcha</string>
+    <string name="variant_26_d">hech kim</string>
+    <string name="answer_26">hech kim</string>
+
+    <string name="questions_27">
+        6 km yurganimdan keyin o\'ngga burlib 2 km yurdim. Shundan keyin chapga burilib 10 km yurdim.
+        Oxir-oqibat, men shimolga qarab harakat qilardim. Men sayohatimni qaysi tomondan boshladim?
+    </string>
+    <string name="variant_27_a">Shimol</string>
+    <string name="variant_27_b">Janub</string>
+    <string name="variant_27_c">Sharq</string>
+    <string name="variant_27_d">G\'arb</string>
+    <string name="answer_27">Janub</string>
+
+    <string name="questions_28">
+        Bir kuni ertalab Umid bilan Vohid chorrahada yuzma-yuz gaplashib turishardi.
+        Agar Vohidning soyasi aynan Umidning chap tomonida bo\'lsa, Umid qaysi tomonga qaragan?
+    </string>
+    <string name="variant_28_a">Sharq</string>
+    <string name="variant_28_b">G\'arb</string>
+    <string name="variant_28_c">Shimol</string>
+    <string name="variant_28_d">Janub</string>
+    <string name="answer_28">Shimol</string>
+
+    <string name="questions_29">
+        Y Z ning shimolida joylashgan, X ning sharqida. Agar P Z ning janubida bo\'lsa, u holda
+        P Y ning qaysi yo\'nalishida joylashadi?
+    </string>
+    <string name="variant_29_a">Shimoliy</string>
+    <string name="variant_29_b">Janubiy</string>
+    <string name="variant_29_c">Janubi-Sharqiy</string>
+    <string name="variant_29_d">Hech biri</string>
+    <string name="answer_29">Hech biri</string>
+
+    <string name="questions_30">
+        Agar Janubi-Sharqiy Shimolga, Shimoli-Sharqiy G\'arbga aylansa va hokazo. G\'arb nima bo\'ladi?
+    </string>
+    <string name="variant_30_a">Shimoli-Sharqiy</string>
+    <string name="variant_30_b">Shimoli-G\'arbiy</string>
+    <string name="variant_30_c">Janubi-Sharqiy</string>
+    <string name="variant_30_d">Janubi-G\'arbiy</string>
+    <string name="answer_30">Janubi-Sharqiy</string>
+
+
+
+    <!--    probablity questions-->
+    <string name="probablity_q_1">
+        Bir sumkada 6 ta qora va 8 ta oq shar bor. Bitta to\'p tasodifiy olinsa,
+        olingan to\'pning oq bo\'lish ehtimoli qanday?
+    </string>
+    <string name="probablity_answer_q_1">4/7</string>
+    <string name="probablity_variant_q_1_a">3/4</string>
+    <string name="probablity_variant_q_1_b">4/7</string>
+    <string name="probablity_variant_q_1_c">1/8</string>
+    <string name="probablity_variant_q_1_d">3/7</string>
+
+    <string name="probablity_q_2">
+        Sumkada 4 ta oq, 5 ta qizil va 6 ta ko\'k sharlar bor. Ehtimoliy 3 ta shar sumkadan olindi.
+        Olingan sharlarning hammasi qizil bo\'lish ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_2">2/91</string>
+    <string name="probablity_variant_q_2_a">1/22</string>
+    <string name="probablity_variant_q_2_b">3/22</string>
+    <string name="probablity_variant_q_2_c">2/91</string>
+    <string name="probablity_variant_q_2_d">2/77</string>
+
+    <string name="probablity_q_3">
+        Bir juft oshiqlar (narda o\yinidagi otiladigan toshlar) doimiy ravishda tashlanib borsa,
+        tushgan sonlarning ko\'paytmasi juft bo\'lishi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_3">¾</string>
+    <string name="probablity_variant_q_3_a">½</string>
+    <string name="probablity_variant_q_3_b">¾</string>
+    <string name="probablity_variant_q_3_c">3/8</string>
+    <string name="probablity_variant_q_3_d">5/16</string>
+
+    <string name="probablity_q_4">
+        Sinfda 15 ta o\'g\'il bola va 10 ta qiz bola bor. 3 ta ehtimoliy o\'quvchi tanlab olinsa,
+        ulardan bittasi qiz va ikkitasi o\'g\'il bola tanlanish ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_4">21/46</string>
+    <string name="probablity_variant_q_4_a">21/46</string>
+    <string name="probablity_variant_q_4_b">25/117</string>
+    <string name="probablity_variant_q_4_c">1/50</string>
+    <string name="probablity_variant_q_4_d">3/25</string>
+
+    <string name="probablity_q_5">
+        Loteriya qutisi ichida 10 ta sovg\'ali va 25 ta bo\'sh varaqalar bor. Bittasi ehtimoliy
+        tanlanib olindi. Sovg\'ali lotareya chiqish ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_5">2/7</string>
+    <string name="probablity_variant_q_5_a">1/10</string>
+    <string name="probablity_variant_q_5_b">2/5</string>
+    <string name="probablity_variant_q_5_c">2/7</string>
+    <string name="probablity_variant_q_5_d">5/7</string>
+
+    <string name="probablity_q_6">
+        Ikkita oshiqalar otildi (narda toshlari). Tushgan sonlarning yig\'indisi prime number
+        bo\'lishi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_6">5/12</string>
+    <string name="probablity_variant_q_6_a">1/6</string>
+    <string name="probablity_variant_q_6_b">5/12</string>
+    <string name="probablity_variant_q_6_c">1/2</string>
+    <string name="probablity_variant_q_6_d">7/9</string>
+
+    <string name="probablity_q_7">
+        52 ta kartadan (1,2,3,4,5,6,7,8,9,J,Q,K,A  -> har biri to\'rttadan) ehtimoliy 2 ta tanlangani
+        qirol(K) chiqishi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_7">1/221</string>
+    <string name="probablity_variant_q_7_a">1/15</string>
+    <string name="probablity_variant_q_7_b">25/57</string>
+    <string name="probablity_variant_q_7_c">35/256</string>
+    <string name="probablity_variant_q_7_d">1/221</string>
+
+    <string name="probablity_q_8">
+        52 ta kartadan (1,2,3,4,5,6,8,8,9,J,Q,K,A  -> har biri to\'rttadan) ehtimoliy 1 ta tanlangani
+        qirol(K), Qirolicha(Q) yoki (J) chiqishi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_8">3/13</string>
+    <string name="probablity_variant_q_8_a">1/13</string>
+    <string name="probablity_variant_q_8_b">3/13</string>
+    <string name="probablity_variant_q_8_c">1/4</string>
+    <string name="probablity_variant_q_8_d">9/52</string>
+
+    <string name="probablity_q_9">
+        52 ta kartadan (1,2,3,4,5,6,8,8,9,J,Q,K,A  -> har biri to\'rttadan) ehtimoliy 2 ta tanlangan.
+        bittasi qarg\'a, yana bittasi yurakcha chiqishi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_9">13/102</string>
+    <string name="probablity_variant_q_9_a">3/20</string>
+    <string name="probablity_variant_q_9_b">29/34</string>
+    <string name="probablity_variant_q_9_c">47/100</string>
+    <string name="probablity_variant_q_9_d">13/102</string>
+
+    <string name="probablity_q_10">
+        52 ta kartadan (1,2,3,4,5,6,8,8,9,J,Q,K,A  -> har biri to\'rttadan) ehtimoliy 1 ta tanlangan.
+        Uning yurakchali qirol(K) yoki g\'ishtli qirolicha(Q) bo\'lishi ehtimoli qnacha?
+    </string>
+    <string name="probablity_answer_q_10">1/26</string>
+    <string name="probablity_variant_q_10_a">1/13</string>
+    <string name="probablity_variant_q_10_b">2/13</string>
+    <string name="probablity_variant_q_10_c">1/26</string>
+    <string name="probablity_variant_q_10_d">1/52</string>
+
+    <string name="probablity_q_11">
+        52 ta kartadan (1,2,3,4,5,6,8,8,9,J,Q,K,A  -> har biri to\'rttadan) ehtimoliy 1 ta tanlangan.
+        Uning yurakchali qirol(K) yoki g\'ishtli qirolicha(Q) bo\'lishi ehtimoli qnacha?
+    </string>
+    <string name="probablity_answer_q_11">1/26</string>
+    <string name="probablity_variant_q_11_a">1/13</string>
+    <string name="probablity_variant_q_11_b">2/13</string>
+    <string name="probablity_variant_q_11_c">1/26</string>
+    <string name="probablity_variant_q_11_d">1/52</string>
+
+    <string name="probablity_q_12">
+        1 dan 20 gacha raqamlangan qog\'ozlar aralashtirildi va ehtimoliy bittasi tanlanib olindi.
+        Olingan qog\'ozda yozilgan sonning 3 ga yoki 5 ga karrali bo\'lishi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_12">9/20</string>
+    <string name="probablity_variant_q_12_a">1/2</string>
+    <string name="probablity_variant_q_12_b">2/5</string>
+    <string name="probablity_variant_q_12_c">8/15</string>
+    <string name="probablity_variant_q_12_d">9/20</string>
+
+    <string name="probablity_q_13">
+        Qutida 2 ta qizil, 3 ta yashil va 2 ta ko\'k sharlar bor. Ehtimoliy 2 ta shar tanlanib olindi.
+        Tanlangan sharlarning ikkisining ham ko\'k rangda bo\'lmasligi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_13">10/21</string>
+    <string name="probablity_variant_q_13_a">10/21</string>
+    <string name="probablity_variant_q_13_b">11/21</string>
+    <string name="probablity_variant_q_13_c">2/7</string>
+    <string name="probablity_variant_q_13_d">5/7</string>
+
+    <string name="probablity_q_14">
+        Qutida 8 ta qizil, 7 ta ko\'k va 6 ta yashil shar bor. Bittasi tanlanib olindi. uning qizil yoki
+        yashil bo\'lmasligining ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_14">1/3</string>
+    <string name="probablity_variant_q_14_a">1/3</string>
+    <string name="probablity_variant_q_14_b">3/4</string>
+    <string name="probablity_variant_q_14_c">7/19</string>
+    <string name="probablity_variant_q_14_d">8/21</string>
+
+    <string name="probablity_q_15">
+        Otilgan oshiqlarning (narda toshlari) yig\'indisi 9 bo\'lishi ehtimoli qancha?
+    </string>
+    <string name="probablity_answer_q_15">1/9</string>
+    <string name="probablity_variant_q_15_a">1/6</string>
+    <string name="probablity_variant_q_15_b">1/8</string>
+    <string name="probablity_variant_q_15_c">1/9</string>
+    <string name="probablity_variant_q_15_d">1/12</string>
+
+    <!--  clock questions -->
+    <string name="clock_q_1">
+        To\'g\'ri ishlayotgan soat ertalab soat 8 ni ko\'rsatdi. Oradan vaqt o\'tib soat 2 ni
+        ko\'rsatsa, soat sterelkasi qanday gradus darajada aylangan?
+    </string>
+    <string name="clock_variant_q_1_a">144</string>
+    <string name="clock_variant_q_1_b">150</string>
+    <string name="clock_variant_q_1_c">168</string>
+    <string name="clock_variant_q_1_d">180</string>
+    <string name="clock_answer_q_1">180</string>
+
+    <string name="clock_q_2">
+        Aylanma soat sterelkalari 10:25 ni ko\'rsatmoqda. Uning sterelkalari orasidagi refleks
+        burchagi nechaga teng?
+    </string>
+    <string name="clock_variant_q_2_a">180</string>
+    <string name="clock_variant_q_2_b">190.5</string>
+    <string name="clock_variant_q_2_c">195</string>
+    <string name="clock_variant_q_2_d">197.5</string>
+    <string name="clock_answer_q_2">197.5</string>
+
+    <string name="clock_q_3">
+        Soat sterelkasi kunning o\'rtasida boshlandi. Soat 17:10 daqiqa o\'tganda soat sterelkasi
+        necha gradus burilgan?
+    </string>
+    <string name="clock_variant_q_3_a">145</string>
+    <string name="clock_variant_q_3_b">150</string>
+    <string name="clock_variant_q_3_c">155</string>
+    <string name="clock_variant_q_3_d">160</string>
+    <string name="clock_answer_q_3">155</string>
+
+    <string name="clock_q_4">
+        Har 3 daqiqada 5 soniyaga oldinlab ketadigan soat ertalab 7:00 da to\'g\'ri vaqtni
+        ko\'rsatgandi. O\'sha kun tushga kelib, soat 4:15 p.m daqiqani ko\'rsatib turibdi. Aslida o\'sha
+        vaqtda soat nechi edi?
+    </string>
+    <string name="clock_variant_q_4_a">3:59 p.m</string>
+    <string name="clock_variant_q_4_b">4 p.m</string>
+    <string name="clock_variant_q_4_c">3:58 p.m</string>
+    <string name="clock_variant_q_4_d">4:2 p.m</string>
+    <string name="clock_answer_q_4">4 p.m</string>
+
+    <string name="clock_q_5">
+        Agar soat sterelkalari har 64 daqiqada bir-biriga ustma-ust to\'g\'ri kelsa, kuniga
+        qancha daqiqa yo\'qotadi?
+    </string>
+    <string name="clock_variant_q_5_a">360/11</string>
+    <string name="clock_variant_q_5_b">401/11</string>
+    <string name="clock_variant_q_5_c">90 min</string>
+    <string name="clock_variant_q_5_d">96 min</string>
+    <string name="clock_answer_q_5">360/11</string>
+
+    <string name="clock_q_6">
+        7:00 bilan 8:00 soatlari orasidagi qaysi vaqtda soat sterelkalari 180° da yotadi?
+    </string>
+    <string name="clock_variant_q_6_a">7:05</string>
+    <string name="clock_variant_q_6_b">7:05 [2/11]</string>
+    <string name="clock_variant_q_6_c">7:05 [3/11]</string>
+    <string name="clock_variant_q_6_d">7:05 [5/11]</string>
+    <string name="clock_answer_q_6">7:05 [5/11]</string>
+
+    <string name="clock_q_7">
+        5:30 dan 6:00 oralig\'ida soat nechada soatning tillari to\'g\'ri burchak ostida bo\'ladi?
+    </string>
+    <string name="clock_variant_q_7_a">5:43 [5/11]</string>
+    <string name="clock_variant_q_7_b">5:43 [7/11]</string>
+    <string name="clock_variant_q_7_c">5:40</string>
+    <string name="clock_variant_q_7_d">5:45</string>
+    <string name="clock_answer_q_7">5:43 [7/11]</string>
+
+    <string name="clock_q_8">
+        Soat 4:20 da uning soat va minut tillari (sterelkalari) necha gradusda bo\'ladi?
+    </string>
+    <string name="clock_variant_q_8_a">0</string>
+    <string name="clock_variant_q_8_b">10</string>
+    <string name="clock_variant_q_8_c">5</string>
+    <string name="clock_variant_q_8_d">20</string>
+    <string name="clock_answer_q_8">10</string>
+
+    <string name="clock_q_9">
+        5:15 daqiqa o\'tganda soatning millari qaysiu burchakda egiladi?
+    </string>
+    <string name="clock_variant_q_9_a">58.5</string>
+    <string name="clock_variant_q_9_b">64</string>
+    <string name="clock_variant_q_9_c">67.5</string>
+    <string name="clock_variant_q_9_d">72.5</string>
+    <string name="clock_answer_q_9">67.5</string>
+
+    <string name="clock_q_10">
+        Soat 3:40 da soatning soat va daqiqa sterelkasi burchak hosil qiladi:
+    </string>
+    <string name="clock_variant_q_10_a">120</string>
+    <string name="clock_variant_q_10_b">125</string>
+    <string name="clock_variant_q_10_c">130</string>
+    <string name="clock_variant_q_10_d">135</string>
+    <string name="clock_answer_q_10">130</string>
+
+    <string name="clock_q_11">
+        Soatning millari bir kunda necha marta to\'g\'ri burchak ostida bo\'ladi?
+    </string>
+    <string name="clock_variant_q_11_a">22</string>
+    <string name="clock_variant_q_11_b">24</string>
+    <string name="clock_variant_q_11_c">44</string>
+    <string name="clock_variant_q_11_d">48</string>
+    <string name="clock_answer_q_11">44</string>
+
+    <string name="clock_q_12">
+        Vaqt 8:30 bo\'lganda soatning soat mili bilan daqiqa mili orasidagi burchak:
+    </string>
+    <string name="clock_variant_q_12_a">80</string>
+    <string name="clock_variant_q_12_b">75</string>
+    <string name="clock_variant_q_12_c">60</string>
+    <string name="clock_variant_q_12_d">105</string>
+    <string name="clock_answer_q_12">75</string>
+
+    <string name="clock_q_13">
+        Kuniga necha marta soatning millari to\'g\'ri chiziqda, lekin yo\'nalishi qarama-qarshi
+        bo\'ladi?
+    </string>
+    <string name="clock_variant_q_13_a">20</string>
+    <string name="clock_variant_q_13_b">22</string>
+    <string name="clock_variant_q_13_c">24</string>
+    <string name="clock_variant_q_13_d">48</string>
+    <string name="clock_answer_q_13">22</string>
+
+    <string name="clock_q_14">
+        Aylanma soat 9 bilan 10 oralig\'ining qaysi vaqtida soatning millari
+        ustma-ust tushadi?
+    </string>
+    <string name="clock_variant_q_14_a">9:45</string>
+    <string name="clock_variant_q_14_b">9:50</string>
+    <string name="clock_variant_q_14_c">9:49 (1/11)</string>
+    <string name="clock_variant_q_14_d">9:48</string>
+    <string name="clock_answer_q_14">9:49 (1/11)</string>
+
+    <string name="clock_q_15">
+        Soatning millari bir kunda necha marta ustma-ust tushadi?
+    </string>
+    <string name="clock_variant_q_15_a">20</string>
+    <string name="clock_variant_q_15_b">21</string>
+    <string name="clock_variant_q_15_c">22</string>
+    <string name="clock_variant_q_15_d">24</string>
+    <string name="clock_answer_q_15">22</string>
+
+    <!--  problems on numbers questions -->
+    <string name="number_q_1">
+        Agar sonning to\'rtdan birining uchdan biri 15 bo\'lsa, bu sonning o\'ndan uch qismi:
+    </string>
+    <string name="number_variant_q_1_a">35</string>
+    <string name="number_variant_q_1_b">36</string>
+    <string name="number_variant_q_1_c">45</string>
+    <string name="number_variant_q_1_d">54</string>
+    <string name="number_answer_q_1">54</string>
+
+    <string name="number_q_2">
+        Ketma-ket kelgan uchta toq sonning birinchisining uch karrasi
+        uchinchisidan 3 barobar k\'p. Uchinchi butun son:
+    </string>
+    <string name="number_variant_q_2_a">9</string>
+    <string name="number_variant_q_2_b">11</string>
+    <string name="number_variant_q_2_c">13</string>
+    <string name="number_variant_q_2_d">15</string>
+    <string name="number_answer_q_2">15</string>
+
+    <string name="number_q_3">
+        Ikki xonali son mavjud. Uning raqamlarining o\'rinlarini almashtirish orqali
+        hosil bo\'lgan yangi son bilan o\'rtasidagi farq 36 ga teng. Bu sonning raqamlari o\'rtasidagi
+        farq nechchi?
+    </string>
+    <string name="number_variant_q_3_a">3</string>
+    <string name="number_variant_q_3_b">4</string>
+    <string name="number_variant_q_3_c">9</string>
+    <string name="number_variant_q_3_d">Aniqlab bo\'lmaydi</string>
+    <string name="number_answer_q_3">hech biri</string>
+
+    <string name="number_q_4">
+        Ikki xonali son mavjud. Uning raqamlari o\'rinini almashtirish natijasida
+        olingan son bilan o\'rtasidagi farq 36 ga teng. Agar shu sonning raqamlari orasidagi
+        nisbat 1:2 bo\'lsa, sonning raqamlari yig\'indisi bilan farqi qanday bo\'ladi?
+    </string>
+    <string name="number_variant_q_4_a">4</string>
+    <string name="number_variant_q_4_b">8</string>
+    <string name="number_variant_q_4_c">16</string>
+    <string name="number_variant_q_4_d">Bularning hech biri</string>
+    <string name="number_answer_q_4">8</string>
+
+    <string name="number_q_5">
+        Shunday ikki xonali son borki, uning raqamlari ko\'paytmasi 8 ga teng.
+        U songa 18 qo\'shildi va hosil bo\'lgan yangi son eski sonning raqamlari o\'rnini almashganiga
+        teng. Eski sonni toping.
+    </string>
+    <string name="number_variant_q_5_a">18</string>
+    <string name="number_variant_q_5_b">24</string>
+    <string name="number_variant_q_5_c">42</string>
+    <string name="number_variant_q_5_d">81</string>
+    <string name="number_answer_q_5">24</string>
+
+
+    <string name="siz_10_ta_savoldan">Siz 10 ta savoldan</string>
+    <string name="javob_berdingiz">javob berdingiz</string>
+    <string name="home">Home</string>
+    <string name="tasiga_to_g_ri_javob">tasiga to\'g\'ri</string>
+    <string name="About_app">Ushu dastur Gita Dasturchilar Akademiyasi Android Bootcamp o\'quvchisi Mahmudov Murodil Tomonidan yaratildi o\'ylaymizki bu dastur siga foyda keltiradi</string>
+    <string name="best_results">Best Results</string>
+    <string name="quiz_math">Math</string>
+    <string name="quiz_physics">Physics</string>
+    <string name="quiz_chemistry">Chemistry</string>
+    <string name="results">Results</string>
+
+</resources>

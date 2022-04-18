@@ -1,0 +1,96 @@
+package uz.gita.quizeapp.Load_Questions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import uz.gita.quizeapp.R;
+import uz.gita.quizeapp.modelQuestions.ModelQuestions;
+
+public class IntesetingLoader {
+    public static List<ModelQuestions> loadEasy() {
+        List<ModelQuestions> questionsList = new ArrayList<>();
+
+        questionsList.add(new ModelQuestions(0, R.string.questiong_1, R.string.variantg_1_a, R.string.variantg_1_b, R.string.variantg_1_c, R.string.variantg_1_d, R.string.answerg1));
+        questionsList.add(new ModelQuestions(1, R.string.questiong_2, R.string.variantg_2_a, R.string.variantg_2_b, R.string.variantg_2_c, R.string.variantg_2_d, R.string.answerg2));
+        questionsList.add(new ModelQuestions(2, R.string.questiong_3, R.string.variantg_3_a, R.string.variantg_3_b, R.string.variantg_3_c, R.string.variantg_3_d, R.string.answerg3));
+        questionsList.add(new ModelQuestions(3, R.string.questiong_4, R.string.variantg_4_a, R.string.variantg_4_b, R.string.variantg_4_c, R.string.variantg_4_d, R.string.answerg4));
+        questionsList.add(new ModelQuestions(4, R.string.questiong_5, R.string.variantg_5_a, R.string.variantg_5_b, R.string.variantg_5_c, R.string.variantg_5_d, R.string.answerg5));
+        questionsList.add(new ModelQuestions(5, R.string.questiong_6, R.string.variantg_6_a, R.string.variantg_6_b, R.string.variantg_6_c, R.string.variantg_6_d, R.string.answerg6));
+        questionsList.add(new ModelQuestions(6, R.string.questiong_7, R.string.variantg_7_a, R.string.variantg_7_b, R.string.variantg_7_c, R.string.variantg_7_d, R.string.answerg7));
+        questionsList.add(new ModelQuestions(7, R.string.questiong_8, R.string.variantg_8_a, R.string.variantg_8_b, R.string.variantg_8_c, R.string.variantg_8_d, R.string.answerg8));
+        questionsList.add(new ModelQuestions(8, R.string.questiong_9, R.string.variantg_9_a, R.string.variantg_9_b, R.string.variantg_9_c, R.string.variantg_9_d, R.string.answerg9));
+        questionsList.add(new ModelQuestions(9, R.string.questiong_10, R.string.variantg_10_a, R.string.variantg_10_b, R.string.variantg_10_c, R.string.variantg_10_d, R.string.answerg10));
+        questionsList.add(new ModelQuestions(10, R.string.questiong_11, R.string.variantg_11_a, R.string.variantg_11_b, R.string.variantg_11_c, R.string.variantg_11_d, R.string.answerg11));
+        questionsList.add(new ModelQuestions(11, R.string.questiong_12, R.string.variantg_12_a, R.string.variantg_12_b, R.string.variantg_12_c, R.string.variantg_12_d, R.string.answerg12));
+        questionsList.add(new ModelQuestions(12, R.string.questiong_13, R.string.variantg_13_a, R.string.variantg_13_b, R.string.variantg_13_c, R.string.variantg_13_d, R.string.answerg13));
+        questionsList.add(new ModelQuestions(13, R.string.questiong_14, R.string.variantg_14_a, R.string.variantg_14_b, R.string.variantg_14_c, R.string.variantg_14_d, R.string.answerg14));
+        questionsList.add(new ModelQuestions(14, R.string.questiong_15, R.string.variantg_15_a, R.string.variantg_15_b, R.string.variantg_15_c, R.string.variantg_15_d, R.string.answerg15));
+        questionsList.add(new ModelQuestions(15, R.string.questiong_16, R.string.variantg_16_a, R.string.variantg_16_b, R.string.variantg_16_c, R.string.variantg_16_d, R.string.answerg16));
+        questionsList.add(new ModelQuestions(16, R.string.questiong_17, R.string.variantg_17_a, R.string.variantg_17_b, R.string.variantg_17_c, R.string.variantg_17_d, R.string.answerg17));
+        questionsList.add(new ModelQuestions(17, R.string.questiong_18, R.string.variantg_18_a, R.string.variantg_18_b, R.string.variantg_18_c, R.string.variantg_18_d, R.string.answerg18));
+        questionsList.add(new ModelQuestions(18, R.string.questiong_19, R.string.variantg_19_a, R.string.variantg_19_b, R.string.variantg_19_c, R.string.variantg_19_d, R.string.answerg19));
+        questionsList.add(new ModelQuestions(19, R.string.questiong_20, R.string.variantg_20_a, R.string.variantg_20_b, R.string.variantg_20_c, R.string.variantg_20_d, R.string.answerg20));
+        questionsList.add(new ModelQuestions(20, R.string.questiong_21, R.string.variantg_21_a, R.string.variantg_21_b, R.string.variantg_21_c, R.string.variantg_21_d, R.string.answerg21));
+        questionsList.add(new ModelQuestions(21, R.string.questiong_22, R.string.variantg_22_a, R.string.variantg_22_b, R.string.variantg_22_c, R.string.variantg_22_d, R.string.answerg22));
+        questionsList.add(new ModelQuestions(22, R.string.questiong_23, R.string.variantg_23_a, R.string.variantg_23_b, R.string.variantg_23_c, R.string.variantg_23_d, R.string.answerg23));
+        questionsList.add(new ModelQuestions(23, R.string.questiong_24, R.string.variantg_24_a, R.string.variantg_24_b, R.string.variantg_24_c, R.string.variantg_24_d, R.string.answerg24));
+        questionsList.add(new ModelQuestions(24, R.string.questiong_25, R.string.variantg_25_a, R.string.variantg_25_b, R.string.variantg_25_c, R.string.variantg_25_d, R.string.answerg25));
+        questionsList.add(new ModelQuestions(25, R.string.questiong_26, R.string.variantg_26_a, R.string.variantg_26_b, R.string.variantg_26_c, R.string.variantg_26_d, R.string.answerg26));
+        questionsList.add(new ModelQuestions(26, R.string.questiong_27, R.string.variantg_27_a, R.string.variantg_27_b, R.string.variantg_27_c, R.string.variantg_27_d, R.string.answerg27));
+        questionsList.add(new ModelQuestions(27, R.string.questiong_28, R.string.variantg_28_a, R.string.variantg_28_b, R.string.variantg_28_c, R.string.variantg_28_d, R.string.answerg28));
+        questionsList.add(new ModelQuestions(28, R.string.questiong_29, R.string.variantg_29_a, R.string.variantg_29_b, R.string.variantg_29_c, R.string.variantg_29_d, R.string.answerg29));
+        questionsList.add(new ModelQuestions(29, R.string.questiong_30, R.string.variantg_30_a, R.string.variantg_30_b, R.string.variantg_30_c, R.string.variantg_30_d, R.string.answerg30));
+        questionsList.add(new ModelQuestions(30, R.string.questionf_21, R.string.variantf_21_a, R.string.variantf_21_b, R.string.variantf_21_c, R.string.variantf_21_d, R.string.answerf21));
+        questionsList.add(new ModelQuestions(31, R.string.questionf_22, R.string.variantf_22_a, R.string.variantf_22_b, R.string.variantf_22_c, R.string.variantf_22_d, R.string.answerf22));
+        questionsList.add(new ModelQuestions(32, R.string.questionf_23, R.string.variantf_23_a, R.string.variantf_23_b, R.string.variantf_23_c, R.string.variantf_23_d, R.string.answerf23));
+        questionsList.add(new ModelQuestions(33, R.string.questionf_24, R.string.variantf_24_a, R.string.variantf_24_b, R.string.variantf_24_c, R.string.variantf_24_d, R.string.answerf24));
+        questionsList.add(new ModelQuestions(34, R.string.questionf_25, R.string.variantf_25_a, R.string.variantf_25_b, R.string.variantf_25_c, R.string.variantf_25_d, R.string.answerf25));
+        questionsList.add(new ModelQuestions(35, R.string.questionf_26, R.string.variantf_26_a, R.string.variantf_26_b, R.string.variantf_26_c, R.string.variantf_26_d, R.string.answerf26));
+        questionsList.add(new ModelQuestions(36, R.string.questionf_27, R.string.variantf_27_a, R.string.variantf_27_b, R.string.variantf_27_c, R.string.variantf_27_d, R.string.answerf27));
+        questionsList.add(new ModelQuestions(37, R.string.questionf_29, R.string.variantf_29_a, R.string.variantf_29_b, R.string.variantf_29_c, R.string.variantf_29_d, R.string.answerf29));
+        questionsList.add(new ModelQuestions(38, R.string.questionm_14, R.string.variantm_14_a, R.string.variantm_14_b, R.string.variantm_14_c, R.string.variantm_14_d, R.string.answerm14));
+        questionsList.add(new ModelQuestions(39, R.string.questionm_15, R.string.variantm_15_a, R.string.variantm_15_b, R.string.variantm_15_c, R.string.variantm_15_d, R.string.answerm15));
+        questionsList.add(new ModelQuestions(40, R.string.questionm_16, R.string.variantm_16_a, R.string.variantm_16_b, R.string.variantm_16_c, R.string.variantm_16_d, R.string.answerm16));
+        questionsList.add(new ModelQuestions(41, R.string.questionm_17, R.string.variantm_17_a, R.string.variantm_17_b, R.string.variantm_17_c, R.string.variantm_17_d, R.string.answerm17));
+        questionsList.add(new ModelQuestions(42, R.string.questionm_18, R.string.variantm_18_a, R.string.variantm_18_b, R.string.variantm_18_c, R.string.variantm_18_d, R.string.answerm18));
+        questionsList.add(new ModelQuestions(43, R.string.questionm_19, R.string.variantm_19_a, R.string.variantm_19_b, R.string.variantm_19_c, R.string.variantm_19_d, R.string.answerm19));
+        questionsList.add(new ModelQuestions(44, R.string.questionm_20, R.string.variantm_20_a, R.string.variantm_20_b, R.string.variantm_20_c, R.string.variantm_20_d, R.string.answerm20));
+        questionsList.add(new ModelQuestions(45, R.string.questionm_21, R.string.variantm_21_a, R.string.variantm_21_b, R.string.variantm_21_c, R.string.variantm_21_d, R.string.answerm21));
+        questionsList.add(new ModelQuestions(46, R.string.questionm_22, R.string.variantm_22_a, R.string.variantm_22_b, R.string.variantm_22_c, R.string.variantm_22_d, R.string.answerm22));
+        questionsList.add(new ModelQuestions(47, R.string.questionm_23, R.string.variantm_23_a, R.string.variantm_23_b, R.string.variantm_23_c, R.string.variantm_23_d, R.string.answerm23));
+        questionsList.add(new ModelQuestions(48, R.string.questionch_11, R.string.variantch_11_a, R.string.variantch_11_b, R.string.variantch_11_c, R.string.variantch_11_d, R.string.answerch11));
+        questionsList.add(new ModelQuestions(49, R.string.questionch_12, R.string.variantch_12_a, R.string.variantch_12_b, R.string.variantch_12_c, R.string.variantch_12_d, R.string.answerch12));
+        questionsList.add(new ModelQuestions(50, R.string.questionch_13, R.string.variantch_13_a, R.string.variantch_13_b, R.string.variantch_13_c, R.string.variantch_13_d, R.string.answerch13));
+        questionsList.add(new ModelQuestions(51, R.string.questionch_14, R.string.variantch_14_a, R.string.variantch_14_b, R.string.variantch_14_c, R.string.variantch_14_d, R.string.answerch14));
+        questionsList.add(new ModelQuestions(52, R.string.questionch_15, R.string.variantch_15_a, R.string.variantch_15_b, R.string.variantch_15_c, R.string.variantch_15_d, R.string.answerch15));
+        questionsList.add(new ModelQuestions(53, R.string.questionch_16, R.string.variantch_16_a, R.string.variantch_16_b, R.string.variantch_16_c, R.string.variantch_16_d, R.string.answerch16));
+        questionsList.add(new ModelQuestions(54, R.string.questionch_17, R.string.variantch_17_a, R.string.variantch_17_b, R.string.variantch_17_c, R.string.variantch_17_d, R.string.answerch17));
+        questionsList.add(new ModelQuestions(55, R.string.questionch_18, R.string.variantch_18_a, R.string.variantch_18_b, R.string.variantch_18_c, R.string.variantch_18_d, R.string.answerch18));
+        questionsList.add(new ModelQuestions(56, R.string.questionch_19, R.string.variantch_19_a, R.string.variantch_19_b, R.string.variantch_19_c, R.string.variantch_19_d, R.string.answerch19));
+        questionsList.add(new ModelQuestions(57, R.string.questionch_20, R.string.variantch_20_a, R.string.variantch_20_b, R.string.variantch_20_c, R.string.variantch_20_d, R.string.answerch20));
+        questionsList.add(new ModelQuestions(58, R.string.questionch_21, R.string.variantch_21_a, R.string.variantch_21_b, R.string.variantch_21_c, R.string.variantch_21_d, R.string.answerch21));
+        questionsList.add(new ModelQuestions(59, R.string.questionch_22, R.string.variantch_22_a, R.string.variantch_22_b, R.string.variantch_22_c, R.string.variantch_22_d, R.string.answerch22));
+        questionsList.add(new ModelQuestions(60, R.string.questionch_23, R.string.variantch_23_a, R.string.variantch_23_b, R.string.variantch_23_c, R.string.variantch_23_d, R.string.answerch23));
+        questionsList.add(new ModelQuestions(61, R.string.questions_20, R.string.variant_20_a, R.string.variant_20_b, R.string.variant_20_c, R.string.variant_20_d, R.string.answer_20));
+        questionsList.add(new ModelQuestions(62, R.string.questions_21, R.string.variant_21_a, R.string.variant_21_b, R.string.variant_21_c, R.string.variant_21_d, R.string.answer_21));
+        questionsList.add(new ModelQuestions(63, R.string.questions_22, R.string.variant_22_a, R.string.variant_22_b, R.string.variant_22_c, R.string.variant_22_d, R.string.answer_22));
+        questionsList.add(new ModelQuestions(64, R.string.questions_23, R.string.variant_23_a, R.string.variant_23_b, R.string.variant_23_c, R.string.variant_23_d, R.string.answer_23));
+        questionsList.add(new ModelQuestions(65, R.string.questions_24, R.string.variant_24_a, R.string.variant_24_b, R.string.variant_24_c, R.string.variant_24_d, R.string.answer_24));
+        questionsList.add(new ModelQuestions(66, R.string.questions_25, R.string.variant_25_a, R.string.variant_25_b, R.string.variant_25_c, R.string.variant_25_d, R.string.answer_25));
+        questionsList.add(new ModelQuestions(67, R.string.questions_26, R.string.variant_26_a, R.string.variant_26_b, R.string.variant_26_c, R.string.variant_26_d, R.string.answer_26));
+        questionsList.add(new ModelQuestions(68, R.string.questions_27, R.string.variant_27_a, R.string.variant_27_b, R.string.variant_27_c, R.string.variant_27_d, R.string.answer_27));
+        questionsList.add(new ModelQuestions(69, R.string.questions_28, R.string.variant_28_a, R.string.variant_28_b, R.string.variant_28_c, R.string.variant_28_d, R.string.answer_28));
+        questionsList.add(new ModelQuestions(70, R.string.questions_29, R.string.variant_29_a, R.string.variant_29_b, R.string.variant_29_c, R.string.variant_29_d, R.string.answer_29));
+        questionsList.add(new ModelQuestions(71, R.string.questions_30, R.string.variant_30_a, R.string.variant_30_b, R.string.variant_30_c, R.string.variant_30_d, R.string.answer_30));
+        questionsList.add(new ModelQuestions(72, R.string.probablity_q_1, R.string.probablity_variant_q_1_a, R.string.probablity_variant_q_1_b, R.string.probablity_variant_q_1_c, R.string.probablity_variant_q_1_d, R.string.probablity_answer_q_1));
+        questionsList.add(new ModelQuestions(73, R.string.probablity_q_2, R.string.probablity_variant_q_2_a, R.string.probablity_variant_q_2_b, R.string.probablity_variant_q_2_c, R.string.probablity_variant_q_2_d, R.string.probablity_answer_q_2));
+        questionsList.add(new ModelQuestions(74, R.string.probablity_q_3, R.string.probablity_variant_q_3_a, R.string.probablity_variant_q_3_b, R.string.probablity_variant_q_3_c, R.string.probablity_variant_q_3_d, R.string.probablity_answer_q_3));
+        questionsList.add(new ModelQuestions(75, R.string.probablity_q_4, R.string.probablity_variant_q_4_a, R.string.probablity_variant_q_4_b, R.string.probablity_variant_q_4_c, R.string.probablity_variant_q_4_d, R.string.probablity_answer_q_4));
+        questionsList.add(new ModelQuestions(76, R.string.probablity_q_5, R.string.probablity_variant_q_5_a, R.string.probablity_variant_q_5_b, R.string.probablity_variant_q_5_c, R.string.probablity_variant_q_5_d, R.string.probablity_answer_q_5));
+        questionsList.add(new ModelQuestions(77, R.string.probablity_q_6, R.string.probablity_variant_q_6_a, R.string.probablity_variant_q_6_b, R.string.probablity_variant_q_6_c, R.string.probablity_variant_q_6_d, R.string.probablity_answer_q_6));
+        questionsList.add(new ModelQuestions(78, R.string.probablity_q_7, R.string.probablity_variant_q_7_a, R.string.probablity_variant_q_7_b, R.string.probablity_variant_q_7_c, R.string.probablity_variant_q_7_d, R.string.probablity_answer_q_7));
+        questionsList.add(new ModelQuestions(79, R.string.probablity_q_8, R.string.probablity_variant_q_8_a, R.string.probablity_variant_q_8_b, R.string.probablity_variant_q_8_c, R.string.probablity_variant_q_8_d, R.string.probablity_answer_q_8));
+        questionsList.add(new ModelQuestions(80, R.string.probablity_q_9, R.string.probablity_variant_q_9_a, R.string.probablity_variant_q_9_b, R.string.probablity_variant_q_9_c, R.string.probablity_variant_q_9_d, R.string.probablity_answer_q_9));
+        return questionsList;
+    }
+}
